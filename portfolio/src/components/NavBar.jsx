@@ -5,9 +5,9 @@ export default function NavBar() {
   return (
     <div>
       <header>
-        <nav id="nav" className="navbar navbar-expand-lg p-4 bg-body-tertiary">
+        <nav id="nav" className="navbar mb-3 navbar-expand-lg p-4 bg-body-tertiary">
           <div className="container-fluid ">
-            <span className="navbar-brand">Full Stack Developer</span>
+            <Link to="/" className="navbar-brand">Juan Martinez</Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -28,6 +28,7 @@ export default function NavBar() {
                     }
                     aria-current="page"
                     to="/about"
+                    id="home"
                   >
                     About Me
                   </Link>

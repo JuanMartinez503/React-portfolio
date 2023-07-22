@@ -1,27 +1,126 @@
+* {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: .5px .5px .5px black;
+}
+:root {
+  --primary: #b172e4;
+  --secondary:#383636;
+  --third: #cccccc;
+}
 body {
-  background-color: #f5f5f5 !important;
+  background-color: var(--third) !important;
 }
 #nav {
-  background-color: #282828 !important;
+  background-color: var(--secondary) !important;
   box-shadow: 2px 2px 5px;
 }
 nav li a {
-  color: #f5f5f5 !important;
+  color: var(--third) !important;
   font-size: 1.3rem !important;
 
 }
+nav li #home:hover::before {
+  
+  position: absolute;
+  transition: all .5s !important;
+  font-size: 10px;
+  width: 150px;
+content: 'Click my name to go to Home!';
+right: 12em;
+bottom: 25%;
+/* top: 25%; */
+}
+
 nav li a:hover {
   font-size: 1.5rem !important;
-  text-shadow: 1px 1px 2px #f5f5f5;
+  transition: all .3s;
+  text-shadow: 1px 1px 2px var(--third);
+
 
 }
+#home {
+  position: relative;
+}
+
+
 .navbar-brand  {
-  color: #7e38b7 !important; 
+  color: var(--primary) !important; 
   font-size: 1.6rem !important;
 }
 .navbar-toggler {
-  color: #7e38b7 !important; 
-  border: 1px solid #7e38b7 !important;
-  background-color: #7e38b7 !important; /* Add this line */
+  color: var(--primary) !important; 
+  border: 1px solid var(--primary) !important;
+  background-color: var(--primary) !important; 
 
 }
+
+
+footer .mt-3 {
+  background-color: var(--secondary) !important;
+}
+footer .card-header {
+  color: var(--primary);
+  font-size: 1.6rem;
+}
+footer .card-body {
+  color: var(--third);
+}
+.socials {
+  text-align: center;
+  
+}
+.socials a {
+  text-decoration: none;
+  font-size: 3rem;
+  
+}
+.devicon-github-original{
+  color: var(--third);
+
+}
+#headshot {
+  width: 50%;
+  border: 1px solid var(--secondary);
+  margin-left: 1%;
+  border-radius: 5%;
+  position: relative; 
+  filter: brightness(.85);
+}
+
+/* Add a dark filter using ::before pseudo-element */
+
+#home-intro{
+  margin-left: 1%;
+  border: 1px solid black;
+  width: 47%;
+  box-shadow:5px 5px 10px;
+  border-radius: 5%;
+}
+#home-intro p{
+  line-height: 1.5;
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+#j{
+  font-size: 1.5em;
+  text-shadow: 1px 1px 5px  var(--primary) ;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  
+  nav li #home:hover::before {
+    right: 1em;;
+  }
+  #headshot {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #home-intro{
+    margin-top: 1%;
+    margin-left: 5%;
+    border: 1px solid black;
+    width: 90%;
+  }
+  }
