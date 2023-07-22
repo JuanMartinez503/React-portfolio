@@ -5,7 +5,7 @@
 :root {
   --primary: #b172e4;
   --secondary:#383636;
-  --third: #cccccc;
+  --third: #e0e0e0;
 }
 body {
   background-color: var(--third) !important;
@@ -105,9 +105,70 @@ footer .card-body {
   font-size: 1.5em;
   text-shadow: 1px 1px 5px  var(--primary) ;
 }
+.skill-icon {
+  font-size: 6rem;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.skill-icon p {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin-top: 2%;}
+.skills-project-title {
+  font-size: 3rem;
+}
+.skills-project-title-p {
+  font-size: 1.3rem;
+}
+.fronted h3,.home-projects h3, .backend h3 {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px var(--primary);
+}
+#project-component{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+#project-component img {
+  width: 45%;
+  border-radius: 5%;
+  border: 2px solid var(--primary);
+  margin-right: 2%;
+  margin-left: 3%;
+}
+#project-info {
+  width: 48%;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 1%;
+  box-shadow: 5px 5px 10px black;
+}
+#project-info a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+#project-info p {
+  font-size: 1.3rem;
+}
+#project-info h4 {
+  text-decoration: none;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px var(--primary);
+}
+.project-icon{
+  margin-right: 2%;
+  font-size: 3rem;
+}
 
+#project-info button {
+  font-size: 1rem;
+  background-color: var(--primary);
+  color: var(--third);
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+  padding: 1%;
 
+}
 @media screen and (max-width: 991px) {
   
   nav li #home:hover::before {
@@ -123,4 +184,18 @@ footer .card-body {
     border: 1px solid black;
     width: 90%;
   }
+  .skill-icon {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #project-component img {
+    width: 90%;
+    margin-left: 5%;
+
+  }
+  #project-info {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }  
   }
