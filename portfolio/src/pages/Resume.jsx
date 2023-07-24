@@ -6,7 +6,7 @@ export default function Resume() {
   }, []);
   return (
     <div>
-        <h2 className="m-1 p-3">Click the link below to access my professional resume and learn more about my qualifications and experience.</h2>
+        <h2 className="m-1 p-3 text-center ">Click the link below to access my professional resume and learn more about my qualifications and experience.</h2>
       <div className="my-5 text-center" id="resume">
         <a href="/">Download my Resume</a>
       </div>

@@ -13,7 +13,7 @@ export default function Portfolio() {
 
   return (
     <div id="portfolio">
-        <h3 className="mx-3">Welcome to my project showcase! Below, you'll find a selection of my most notable projects. For a more comprehensive view of my work, feel free to explore my GitHub repository. Let's embark on a journey through creativity and innovation!</h3>
+        <h3 className="mx-3 text-center">Welcome to my project showcase! Below, you'll find a selection of my most notable projects. For a more comprehensive view of my work, feel free to explore my GitHub repository. Let's embark on a journey through creativity and innovation!</h3>
          <h4 className="my-3">Full Stack:</h4>
       <Project
         aos1="fade-right"

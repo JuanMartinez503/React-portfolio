@@ -1,6 +1,7 @@
 * {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: .5px .5px .5px black;
+  
 }
 :root {
   --primary: #b172e4;
@@ -9,7 +10,9 @@
 }
 body {
   background-color: var(--third) !important;
+
 }
+
 #nav {
   background-color: var(--secondary) !important;
   box-shadow: 2px 2px 5px;
@@ -34,7 +37,7 @@ bottom: 25%;
 nav li a:hover {
   font-size: 1.5rem !important;
   transition: all .3s;
-  text-shadow: 1px 1px 2px var(--third);
+  text-shadow: 1px 1px 2px var(--primary);
 
 
 }
@@ -45,7 +48,7 @@ nav li a:hover {
 
 .navbar-brand  {
   color: var(--primary) !important; 
-  font-size: 1.6rem !important;
+  font-size: 1.8rem !important;
 }
 .navbar-toggler {
   color: var(--primary) !important; 
@@ -190,6 +193,31 @@ footer .card-body {
   text-shadow: 1px 1px 5px var(--primary);
   margin: 1%;
 }
+#about img{
+  margin: 0 auto;
+  width: 30%;
+  filter: brightness(.85);
+  border-radius: 50%;
+  box-shadow:  3px 3px 10px black;
+}
+#about p{
+  margin-left: 1%;
+  padding: 0 8% 0 8%;
+  
+line-height: 1.7;
+font-size: 2.2rem;
+}
+#about h2{
+  color: var(--primary); 
+  font-size: 3rem;
+}
+.active {
+  color: var(--primary) !important;
+  text-shadow: 1px 1px white;
+  transform: translateY(-10px);
+}
+
+
 
 @media screen and (max-width: 991px) {
   
@@ -221,4 +249,33 @@ footer .card-body {
     margin-left: 5%;
     margin-top: 2%;
   }  
+  #about img {
+    width: 50%;
   }
+  #about p {
+    font-size: 2rem;
+  padding: 0 2% 0 2%;
+    
+  }
+  #about h2{
+  margin-left: 2%;
+
+  }
+
+
+  
+  }
+  @media screen and (max-width: 640px) {
+    #project-info p {
+      padding: 2%;
+      font-size: 1.1rem;
+    }
+    #about p {
+      font-size: 1.1rem
+    
+      
+      }
+      #portfolio h3{
+        font-size: 1rem;
+      }
+    }

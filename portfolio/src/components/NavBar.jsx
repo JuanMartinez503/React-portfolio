@@ -24,7 +24,7 @@ export default function NavBar() {
                 <li className="nav-item mx-3">
                   <Link
                     className={
-                      currentURL === "/" ? "nav-link active" : "nav-link"
+                      currentURL === "/about" ? "nav-link active" : "nav-link"
                     }
                     aria-current="page"
                     to="/about"
@@ -35,14 +35,14 @@ export default function NavBar() {
                 </li>
                 <li className="nav-item mx-3">
                   <Link className={
-                      currentURL === "/" ? "nav-link active" : "nav-link"
+                      currentURL === "/portfolio" ? "nav-link active" : "nav-link"
                     } to="/portfolio">
                     Portfolio
                   </Link>
                 </li>
                 <li className="nav-item mx-3">
                   <Link    className={
-                      currentURL === "/" ? "nav-link active" : "nav-link"
+                      currentURL === "/contact" ? "nav-link active" : "nav-link"
                     } to="/contact">Contact</Link>
                 </li>
                 <li className="nav-item mx-3">
