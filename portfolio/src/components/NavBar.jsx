@@ -46,7 +46,7 @@ export default function NavBar() {
                     } to="/contact">Contact</Link>
                 </li>
                 <li className="nav-item mx-3">
-                  <Link    className={
+                  <Link  to="/resume"  className={
                       currentURL === "/resume" ? "nav-link active" : "nav-link"
                     }>Resume</Link>
                 </li>

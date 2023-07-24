@@ -1,10 +1,18 @@
 import Project from "../components/Project";
 import perSocial from '../images/petsocialmedia.png'
 import techBlog from '../images/techblog.png'
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import{useEffect} from 'react'
 export default function Home() {
+    useEffect(()=>{
+        Aos.init({duration:1500, delay:200})
+    },[])
+    const website = "Visit Website!"
   return (
-    <div>
-      <div className="intro d-flex flex-wrap">
+    
+    <div >
+      <div className="intro d-flex flex-wrap top" data-aos="zoom-in">
         <img
           id="headshot"
           src="./src/images/headshot.jpg"
@@ -13,7 +21,7 @@ export default function Home() {
         <div id="home-intro" className="text-center p-1 flex-wrap">
           <h2>
             {" "}
-            Hi there, I'm <span id="j">J</span>uan, a Full Stack Developer!
+            Hi there, I'm <span id="j">J</span><span id="uan">uan</span>, a Full Stack Developer!
           </h2>
           <p>
           With a strong passion for creating captivating web experiences, I specialize in crafting clean code and designing intuitive user interfaces. My expertise lies in bringing innovation to life through dynamic web applications.
@@ -30,13 +38,13 @@ export default function Home() {
         </div>
       </div>
       
-<div className="py-4 m-1">
+<div className="py-4 m-1" data-aos="fade-right">
   <h3 className="skills-project-title">Explore My Skills and Projects!</h3>
   <p className="skills-project-title-p">For a comprehensive showcase of my capabilities and accomplishments, head over to my portfolio and resume section.</p>
 </div>
       <div className="home-skills">
-        <div className="m-1 fronted ">
-          <h3 className="d-flex">Fronted:</h3>
+        <div className="m-1 fronted " data-aos="flip-right">
+          <h3 className="d-flex">Front-End:</h3>
           <div className="home-skills-icon-cont d-flex flex-wrap text-center">
             <i className="devicon-react-original colored skill-icon">
               <p>React</p>
@@ -53,8 +61,8 @@ export default function Home() {
             </i>
           </div>
         </div>
-        <div className="m-1 my-5 backend">
-          <h3>Backend:</h3>
+        <div className="m-1 my-5 backend" data-aos="flip-left">
+          <h3>Back-End:</h3>
           <div className="home-skills-icon-cont d-flex text-center flex-wrap">
           <i className="devicon-nodejs-plain colored skill-icon">
             <p>Node.js</p>
@@ -74,9 +82,9 @@ export default function Home() {
       </div>
       <div className="m-1 home-projects">
         <h3>Projects:</h3>
-        <Project  img={perSocial} stack3="devicon-css3-plain colored project-icon" stack2="devicon-mysql-plain-wordmark colored project-icon" stack1="devicon-javascript-plain colored project-icon" stack4="devicon-handlebars-plain-wordmark  project-icon" title=" P🐾st: Pet Social Media " github="https://github.com/JuanMartinez503/Full-stack-pet-socia-media" description="Step into a world where adorable pets rule the social media kingdom! As the lead developer, I proudly present a full-stack application that lets users create accounts for their pets, sparking charming interactions with other delightful companions. 🐾💛" appUrl="https://full-stack-pet-social-media-698fb2b195ab.herokuapp.com/" />
+        <Project aos1="fade-right" form={website} aos2="fade-left" img={perSocial} stack3="devicon-css3-plain colored project-icon" stack2="devicon-mysql-plain-wordmark colored project-icon" stack1="devicon-javascript-plain colored project-icon" stack4="devicon-handlebars-plain-wordmark  project-icon" title=" P🐾st: Pet Social Media " github="https://github.com/JuanMartinez503/Full-stack-pet-socia-media" description="Step into a world where adorable pets rule the social media kingdom! As the lead developer, I proudly present a full-stack application that lets users create accounts for their pets, sparking charming interactions with other delightful companions. 🐾💛" appUrl="https://full-stack-pet-social-media-698fb2b195ab.herokuapp.com/" />
         
-        <Project img={techBlog} stack3="devicon-nodejs-plain-wordmark colored project-icon" stack2="devicon-express-original-wordmark colored project-icon" stack1="devicon-javascript-plain colored project-icon" stack4="devicon-sequelize-plain-wordmark colored project-icon" title="Tech Blog " github="https://github.com/JuanMartinez503/Full-Stack-MVC-Tech-Blog" description="I designed and implemented a CMS-style blog site, allowing users to publish, update, and delete their posts while fostering a vibrant community for sharing thoughts and ideas. The website was built from scratch to ensure a seamless and user-friendly experience." appUrl="https://full-stack-mvc-tech-blog-28de33d18a0e.herokuapp.com/" />
+        <Project aos1="fade-left" aos2="fade-right" form={website} img={techBlog} stack3="devicon-nodejs-plain-wordmark colored project-icon" stack2="devicon-express-original-wordmark colored project-icon" stack1="devicon-javascript-plain colored project-icon" stack4="devicon-sequelize-plain-wordmark colored project-icon" title="Tech Blog " github="https://github.com/JuanMartinez503/Full-Stack-MVC-Tech-Blog" description="I designed and implemented a CMS-style blog site, allowing users to publish, update, and delete their posts while fostering a vibrant community for sharing thoughts and ideas. The website was built from scratch to ensure a seamless and user-friendly experience." appUrl="https://full-stack-mvc-tech-blog-28de33d18a0e.herokuapp.com/" />
       </div>
     </div>
   );
