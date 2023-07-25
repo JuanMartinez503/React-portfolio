@@ -6,7 +6,6 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-import Contact from './pages/Contact.jsx'
 import Home from './pages/Home.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
 import Portfolio from './pages/Portfolio.jsx'
@@ -30,10 +29,7 @@ const router = createBrowserRouter([
         path:'/resume',
         element: <Resume />
       },
-      {
-        path: '/contact',
-        element:<Contact />
-      },
+  
       {
         path:'/portfolio',
         element: <Portfolio />

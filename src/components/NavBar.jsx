@@ -40,11 +40,7 @@ export default function NavBar() {
                     Portfolio
                   </Link>
                 </li>
-                <li className="nav-item mx-3">
-                  <Link    className={
-                      currentURL === "/contact" ? "nav-link active" : "nav-link"
-                    } to="/contact">Contact</Link>
-                </li>
+              
                 <li className="nav-item mx-3">
                   <Link  to="/resume"  className={
                       currentURL === "/resume" ? "nav-link active" : "nav-link"
