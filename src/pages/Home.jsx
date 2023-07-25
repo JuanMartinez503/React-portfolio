@@ -16,7 +16,7 @@ export default function Home() {
       <div className="intro d-flex flex-wrap top" data-aos="zoom-in">
         <img
           id="headshot"
-          src="./src/images/headshot.jpg"
+          src="./src/images/headshot.png"
           alt="A picture of myself smiling with my arms crossed"
         />
         <div id="home-intro" className="text-center p-1 flex-wrap">

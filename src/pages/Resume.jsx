@@ -8,7 +8,7 @@ export default function Resume() {
     <div>
         <h2 className="m-1 p-3 text-center ">Click the link below to access my professional resume and learn more about my qualifications and experience.</h2>
       <div className="my-5 text-center" id="resume">
-        <a href="./src/resume/resume.pdf" download >Download my Resume</a>
+        <a href="/resume.pdf" download >Download my Resume</a>
       </div>
       <div id="resume-skills">
         <div className="m-1 fronted ">

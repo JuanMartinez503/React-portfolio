@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div id="about" className=" d-flex flex-wrap">
       <img
-        src="./src/images/aboutme.jpg"
+        src="./src/images/aboutme.png"
         alt="A picture of myself smiling to the camera"
         data-aos="flip-right"
         className="my-3"
