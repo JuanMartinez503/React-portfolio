@@ -1,5 +1,6 @@
 import Aos from "aos";
 import { useEffect } from "react";
+import aboutMe from '../images/aboutme.png'
 export default function About() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -7,7 +8,7 @@ export default function About() {
   return (
     <div id="about" className=" d-flex flex-wrap">
       <img
-        src="./src/images/aboutme.png"
+        src={aboutMe}
         alt="A picture of myself smiling to the camera"
         data-aos="flip-right"
         className="my-3"

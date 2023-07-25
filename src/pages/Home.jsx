@@ -4,6 +4,7 @@ import techBlog from '../images/techblog.png'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import{useEffect} from 'react'
+import headshot from '../images/headshot.png'
 
 export default function Home() {
     useEffect(()=>{
@@ -16,7 +17,7 @@ export default function Home() {
       <div className="intro d-flex flex-wrap top" data-aos="zoom-in">
         <img
           id="headshot"
-          src="./src/images/headshot.png"
+          src={headshot}
           alt="A picture of myself smiling with my arms crossed"
         />
         <div id="home-intro" className="text-center p-1 flex-wrap">
