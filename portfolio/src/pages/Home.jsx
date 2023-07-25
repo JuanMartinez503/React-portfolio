@@ -4,6 +4,7 @@ import techBlog from '../images/techblog.png'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import{useEffect} from 'react'
+
 export default function Home() {
     useEffect(()=>{
         Aos.init({duration:1500, delay:200})
@@ -38,14 +39,14 @@ export default function Home() {
         </div>
       </div>
       
-<div className="py-4 m-1" data-aos="fade-right">
+<div className="py-4 m-1 text-center" data-aos="fade-right">
   <h3 className="skills-project-title">Explore My Skills and Projects!</h3>
   <p className="skills-project-title-p">For a comprehensive showcase of my capabilities and accomplishments, head over to my portfolio and resume section.</p>
 </div>
       <div className="home-skills">
         <div className="m-1 fronted " data-aos="flip-right">
           <h3 className="d-flex">Front-End:</h3>
-          <div className="home-skills-icon-cont d-flex flex-wrap text-center">
+          <div className="home-skills-icon-cont d-flex flex-wrap text-center justify-content-between">
             <i className="devicon-react-original colored skill-icon">
               <p>React</p>
             </i>
@@ -63,8 +64,8 @@ export default function Home() {
         </div>
         <div className="m-1 my-5 backend" data-aos="flip-left">
           <h3>Back-End:</h3>
-          <div className="home-skills-icon-cont d-flex text-center flex-wrap">
-          <i className="devicon-nodejs-plain colored skill-icon">
+          <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
+          <i className="devicon-nodejs-plain colored skill-icon ">
             <p>Node.js</p>
           </i>
 

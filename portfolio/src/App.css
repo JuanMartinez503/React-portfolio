@@ -12,10 +12,14 @@ body {
   background-color: var(--third) !important;
 
 }
+header{
+  position: relative;
+}
 
 #nav {
   background-color: var(--secondary) !important;
   box-shadow: 2px 2px 5px;
+  
 }
 nav li a {
   color: var(--third) !important;
@@ -113,8 +117,8 @@ footer .card-body {
 }
 .skill-icon {
   font-size: 6rem;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .skill-icon p {
   font-size: 2rem;
@@ -140,7 +144,7 @@ footer .card-body {
 #project-component img {
   width: 45%;
   
-  z-index: 10;
+  box-shadow: 2px 2px 5px black;
   border-radius: 5%;
   border: 2px solid var(--primary);
   margin-right: 2%;
@@ -154,6 +158,9 @@ footer .card-body {
   border: none;
 }
 #project-info {
+  background: linear-gradient(135deg, #d8a5e6, #b6ebf4);
+
+
   margin-left: 2%;
   width: 48%;
   height: 100%;
@@ -165,6 +172,12 @@ footer .card-body {
 #project-info a {
   text-decoration: none;
   font-size: 2rem;
+  
+}
+#project-info button:hover {
+transform: scale(1.1);
+transition: all .4s;
+  
 }
 #project-info p {
   font-size: 1.3rem;
@@ -213,10 +226,17 @@ font-size: 2.2rem;
 }
 .active {
   color: var(--primary) !important;
-  text-shadow: 1px 1px white;
+  font-size: 1.7rem !important;
   transform: translateY(-10px);
 }
-
+#scroll-Btn{
+  padding: 1%;
+  background: linear-gradient(135deg, #b07ed9, #75d3e8);
+  margin-right: 1%;
+}
+#scroll-Btn:hover{
+  transform: scale(1.1);
+}
 
 
 @media screen and (max-width: 991px) {

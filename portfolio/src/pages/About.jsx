@@ -5,11 +5,12 @@ export default function About() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div id="about" className="d-flex flex-wrap">
+    <div id="about" className=" d-flex flex-wrap">
       <img
         src="./src/images/aboutme.jpg"
         alt="A picture of myself smiling to the camera"
         data-aos="flip-right"
+        className="my-3"
       />
       <div data-aos="flip-left">
         <h2 className="text-center">Hello there!</h2>

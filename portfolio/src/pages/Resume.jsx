@@ -13,7 +13,7 @@ export default function Resume() {
       <div id="resume-skills">
         <div className="m-1 fronted ">
           <h3 className="d-flex">Front-End:</h3>
-          <div className="home-skills-icon-cont d-flex flex-wrap text-center">
+          <div className="home-skills-icon-cont d-flex flex-wrap text-center justify-content-between">
             <i className="devicon-html5-plain colored skill-icon" data-aos="fade-right" >
               <p>HTML</p>
             </i>{" "}
@@ -45,7 +45,7 @@ export default function Resume() {
           </div>
           <div className="m-1 my-5 backend" >
           <h3>Back-End:</h3>
-          <div className="home-skills-icon-cont d-flex text-center flex-wrap">
+          <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
           <i className="devicon-nodejs-plain colored skill-icon" data-aos="fade-left" >
             <p>Node.js</p>
           </i>
@@ -63,11 +63,14 @@ export default function Resume() {
             <i className="devicon-mysql-plain colored skill-icon" data-aos="fade-left" >
               <p>MySQL</p>
             </i>
+            <i className="devicon-graphql-plain-wordmark colored skill-icon" data-aos="fade-left" >
+              <p>Graph QL</p>
+            </i>
           </div>
         </div>
         <div className="m-1 my-5 backend" data-aos="flip-left">
           <h3>DevOps:</h3>
-          <div className="home-skills-icon-cont d-flex text-center flex-wrap">
+          <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
           <i className="devicon-git-plain colored skill-icon" data-aos="fade-left" >
             <p>Git</p>
           </i>

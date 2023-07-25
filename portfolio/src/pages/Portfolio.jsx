@@ -85,7 +85,7 @@ export default function Portfolio() {
         stack2="devicon-mongodb-plain-wordmark colored project-icon"
         title="NoSQL: Social Network API"
         github="https://github.com/JuanMartinez503/NoSQL-Social-Network-API"
-        description="I built a dynamic Social Network API from scratch, utilizing MongoDB, Mongoose, and Express.js. This API enables users to interact, share thoughts, react to posts, and manage friend lists, providing a seamless experience for a social network web application."
+        description="I built a dynamic Social Network API from scratch, leveraging the power of MongoDB, Mongoose, and Express.js. Through this API, users can effortlessly interact with one another, share thoughts, react to posts, and effortlessly manage friend lists, offering a seamless and engaging experience for any social network web application. By combining my frontend expertise with my backend proficiency, I successfully brought this project to life, showcasing my ability to create robust and user-centric web solutions."
         appUrl="https://drive.google.com/file/d/1gWEUDKankUsW4-AzEuzJasr9bBRKccqZ/view"
       />{" "}
       <Project
