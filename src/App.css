@@ -7,9 +7,11 @@
   --primary: #b172e4;
   --secondary:#383636;
   --third: #e0e0e0;
+  --complementary:  #f0f0f0;
+
 }
 body {
-  background-color: var(--third) !important;
+  background-image: linear-gradient(to bottom, var(--third), var(--complementary)) !important;
 
 }
 header{
@@ -158,7 +160,22 @@ footer .card-body {
   border: none;
 }
 #project-info {
-  background: linear-gradient(135deg, #d8a5e6, #b6ebf4);
+
+}
+.project-info-bg{
+  background: linear-gradient(135deg,  #b6ebf4, #d8a5e6);
+
+
+  margin-left: 2%;
+  width: 48%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 2%;
+  box-shadow: 5px 5px 10px black;
+}
+.project-info-bg-reverse{
+  background: linear-gradient(135deg,  #d8a5e6, #b6ebf4);
 
 
   margin-left: 2%;

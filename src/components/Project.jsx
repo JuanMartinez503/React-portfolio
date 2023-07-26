@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import Aos from 'aos'
 import {useEffect} from 'react'
-export default function Project ({aos2, aos1, img, description,title, github, stack1, stack2,stack3, stack4, appUrl, form}){
+export default function Project ({aos2, aos1, img, description,title, github, stack1, stack2,stack3, stack4, appUrl, form, gradient}){
     useEffect(()=>{
         Aos.init({duration:1000})
     },[])
@@ -9,7 +9,7 @@ export default function Project ({aos2, aos1, img, description,title, github, st
      <div>
            <div id="project-component" className="my-5 m-1 ">
             <img src={img} alt={description} data-aos={aos1}/>
-            <div id="project-info" data-aos={aos2} className="flex-wrap">
+            <div id="project-info" data-aos={aos2} className={gradient}>
               <h4 className="text-center">{title} <Link target='_blank' to={github}>
             <i className="devicon-github-original colored"></i>
           </Link></h4>

@@ -10,6 +10,8 @@ import movies from '../images/movies.png'
 export default function Portfolio() {
   const website = "Visit Website!";
   const video = "Watch Demo Video!"
+  const gradientReverse = "project-info-bg-reverse flex-wrap";
+  const gradient = "project-info-bg flex-wrap";
 
   return (
     <div id="portfolio">
@@ -17,6 +19,7 @@ export default function Portfolio() {
          <h4 className="my-3">Full Stack:</h4>
       <Project
         aos1="fade-right"
+        gradient={gradientReverse}
         form={website}
         aos2="fade-left"
         img={perSocial}
@@ -32,6 +35,7 @@ export default function Portfolio() {
       <Project
         aos1="fade-left"
         aos2="fade-right"
+        gradient={gradient}
         form={website}
         img={techBlog}
         stack3="devicon-nodejs-plain-wordmark colored project-icon"
@@ -48,6 +52,8 @@ export default function Portfolio() {
         aos1="fade-left"
         aos2="fade-right"
         form={website}
+        gradient={gradientReverse}
+
         img={movies}
         stack3="devicon-html5-plain-wordmark colored project-icon"
         stack2="devicon-css3-plain colored project-icon"
@@ -62,6 +68,8 @@ export default function Portfolio() {
         aos1="fade-right"
         aos2="fade-left"
         form={website}
+        gradient={gradient}
+
         img={weather}
         stack3="devicon-css3-plain colored project-icon"
         stack2="devicon-html5-plain-wordmark colored project-icon"
@@ -78,6 +86,8 @@ export default function Portfolio() {
         aos1="fade-left"
         aos2="fade-right"
         form={video}
+        gradient={gradientReverse}
+
         img={mongoDB}
         stack4="devicon-nodejs-plain-wordmark colored project-icon"
         stack1="devicon-express-original-wordmark colored project-icon"
@@ -93,6 +103,8 @@ export default function Portfolio() {
         aos2="fade-left"
         form={video}
         img={ecommerse}
+        gradient={gradient}
+
         stack3="devicon-nodejs-plain-wordmark colored project-icon"
         stack2="devicon-express-original-wordmark colored project-icon"
         stack1="devicon-javascript-plain colored project-icon"
