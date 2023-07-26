@@ -253,6 +253,7 @@ font-size: 2.2rem;
 }
 #scroll-Btn:hover{
   transform: scale(1.1);
+  transition: all .4s;
 }
 
 
