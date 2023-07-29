@@ -3,16 +3,16 @@ export default function Footer() {
   return (
     <footer>
       <div className=" mt-3 p-3 card">
-        <div className="card-header">Full Stack Developer</div>
+        <div className="card-header text-center" >Full Stack Developer</div>
         <div className="card-body">
-          <blockquote className="blockquote mb-0">
+          <blockquote className="blockquote mb-0 text-center ">
             <p>
               {" "}
               "The only way to do great work is to love what you do." - Steve
               Jobs{" "}
             </p>
           </blockquote>
-          <div className="socials">
+          <div className="socials my-4">
             <Link to="https://www.linkedin.com/in/juan-martinez-769870247/" target='_blank'>
               <i className="devicon-linkedin-plain social-icon"></i>
             </Link>
