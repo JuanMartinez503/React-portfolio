@@ -7,7 +7,8 @@ export default function NavBar() {
       <header>
         <nav id="nav" className="navbar mb-3 navbar-expand-lg p-4 bg-body-tertiary">
           <div className="container-fluid ">
-            <Link to="/" className="navbar-brand">Juan Martinez</Link>
+            <Link to="/" className="navbar-brand">Juan Martinez<br />
+            <span id="full-stack" className="text-center">Full Stack Developer</span></Link>
             <button
               className="navbar-toggler"
               type="button"

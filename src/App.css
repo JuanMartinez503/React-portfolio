@@ -1,8 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Libre+Bodoni&family=Open+Sans:ital@1&family=Pangolin&family=Playfair+Display&family=Poppins&display=swap');
+
 * {
-  font-family: 'Roboto', sans-serif;
-  text-shadow: .5px .5px .5px black;
+  text-shadow: .5px .5px 1px black;
+  font-family: 'Amatic SC', cursive;
+font-family: 'Libre Bodoni', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+
   
 }
 :root {
@@ -55,8 +63,24 @@ nav li a:hover {
 
 
 .navbar-brand  {
-  color: var(--primary) !important; 
+  position: relative;
+  width: auto;
+  color: #b6ebf4 !important; 
   font-size: 1.8rem !important;
+  margin: 0;
+  padding: 0;
+}
+#full-stack {
+
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  color: var(--primary);
+  align-items: center;
+  font-size: .8rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  
 }
 .navbar-toggler {
   color: var(--primary) !important; 
@@ -89,13 +113,18 @@ footer .card-body {
   color: var(--third);
 
 }
+#logo-png{
+  
+}
 #headshot {
-  width: 50%;
-  border: 1px solid var(--secondary);
+  width: 45%;
+  border: 1px solid var(--primary);
   margin-left: 1%;
-  border-radius: 5%;
+  border-radius: 20px;
+  margin-right: 1%;
   position: relative; 
   filter: brightness(.85);
+  box-shadow:  0 0 10px;
 }
 
 /* Add a dark filter using ::before pseudo-element */
@@ -103,13 +132,13 @@ footer .card-body {
 #home-intro{
   margin-left: 1%;
   border: 1px solid black;
-  width: 47%;
-  box-shadow:5px 5px 10px;
-  border-radius: 5%;
+  width: 51%;
+  box-shadow:0 0 10px;
+  border-radius: 20px;
 }
 #home-intro p{
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--secondary);
 }
 #j{
@@ -148,7 +177,6 @@ footer .card-body {
 #project-component img {
   width: 45%;
   
-  box-shadow: 2px 2px 5px black;
   border-radius: 20px;
   border: 2px solid var(--primary);
   margin-right: 2%;
@@ -174,7 +202,7 @@ footer .card-body {
   border: 1px solid black;
   border-radius: 20px;
   padding: 2%;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 0 0 10px black;
 }
 .project-info-bg-reverse{
   background: linear-gradient(135deg,  #d8a5e6, #b6ebf4);
@@ -186,7 +214,7 @@ footer .card-body {
   border: 1px solid black;
   border-radius: 20px;
   padding: 2%;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 0 0 10px black;
 }
 #project-info a {
   text-decoration: none;
@@ -260,21 +288,29 @@ font-size: 2.2rem;
 
 
 @media screen and (max-width: 991px) {
-  
+  nav ul {
+    margin-top: 5%;
+  }
   nav li #home:hover::before {
-    right: 1em;;
+    right: .1rem;
+    font-size: .5rem;
   }
   #headshot {
     width: 90%;
+    margin: 0 auto;
     margin-left: 5%;
+  box-shadow:none;
+
   }
   #home-intro{
-    margin-top: 1%;
-    margin-left: 5%;
+    
     border: 1px solid black;
+    margin: 3% auto;
+
     width: 90%;
   }
   #home-intro p{
+    
     font-size: 1.1rem;
   }
   .skill-icon {
@@ -284,13 +320,13 @@ font-size: 2.2rem;
   }
   #project-component img {
     width: 90%;
-    margin-left: 5%;
+    margin: 0 auto;
 
   }
   #project-info {
     width: 90%;
-    margin-left: 5%;
-    margin-top: 2%;
+    margin: 4% auto;
+    box-shadow: 0 0 10px;
   }  
   #about img {
     width: 50%;
@@ -322,3 +358,39 @@ font-size: 2.2rem;
         font-size: 1rem;
       }
     }
+    @media screen and (max-width: 320px) {
+      nav li #home:hover::before{
+        display: none;
+      }
+      .navbar-toggler{
+
+        margin: 0 auto;
+        margin-top: 10%;
+      }
+      .navbar-brand {
+        margin: 0 auto;
+      }
+      nav ul {
+        width: 60%;
+        margin: 2% auto;
+      }
+    }
+
+    @media (min-width: 1440px) {
+      html {
+        zoom: 1.2;
+      }
+    }
+    
+    @media (min-width: 2560px) {
+      html {
+        zoom: 1.7;
+      }
+    }
+    
+    @media (min-width: 3860px) {
+      html {
+        zoom: 2.5;
+      }
+    }
+  
