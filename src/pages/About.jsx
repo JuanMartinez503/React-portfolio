@@ -17,7 +17,7 @@ export default function About() {
         <h2 className="text-center">Hello there!</h2>
         <div className="text-center">
           <p>
-            I am an aspiring junior full stack developer with a deep passion for
+            I am a full stack developer with a deep passion for
             coding and a solid foundation in various frontend and backend
             technologies. Recently, I successfully completed my Full Stack
             Developer Certification at Butler University's Coding Bootcamp,

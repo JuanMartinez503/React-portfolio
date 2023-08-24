@@ -1,7 +1,8 @@
 import Project from "../components/Project";
 import perSocial from "../images/petsocialmedia.png";
-import techBlog from "../images/techblog.png";
+import martinezCakes from '../images/martinezcakes.png'
 import Aos from "aos";
+
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import headshot from "../images/headshot.png";
@@ -96,12 +97,27 @@ export default function Home() {
       <div className="m-1 home-projects">
         <h3>Projects:</h3>
         <Project
+  aos1="fade-left"
+  aos2="fade-right"
+  form={website}
+  img={martinezCakes}
+  gradient={gradient}
+  stack3="devicon-react-original-wordmark colored project-icon"
+  stack2="devicon-nodejs-plain-wordmark colored project-icon"
+  stack1="devicon-css3-plain-wordmark colored project-icon"
+  stack4="devicon-mongodb-plain-wordmark colored project-icon"
+  title="Martinez Cakes"
+  github="https://github.com/JuanMartinez503/full-stack-cake-website"
+  description="An exquisite Full Stack application tailored to showcase the masterful craftsmanship of my sister's cake business. I created this platform from scratch, allowing users to explore a gallery of intricately designed cakes that add an extra layer of joy to special moments. The site is fully bilingual, ensuring accessibility for both English and Spanish-speaking audiences."
+  appUrl="https://martinezcakes.com/"
+/>
+        <Project
           aos1="fade-right"
           form={website}
           gradient={gradientReverse}
           aos2="fade-left"
           img={perSocial}
-          stack3="devicon-css3-plain colored project-icon"
+          stack3="devicon-tailwindcss-plain colored project-icon"
           stack2="devicon-mysql-plain-wordmark colored project-icon"
           stack1="devicon-javascript-plain colored project-icon"
           stack4="devicon-handlebars-plain-wordmark  project-icon"
@@ -111,21 +127,8 @@ export default function Home() {
           appUrl="https://full-stack-pet-social-media-698fb2b195ab.herokuapp.com/"
         />
 
-        <Project
-          aos1="fade-left"
-          aos2="fade-right"
-          form={website}
-          img={techBlog}
-          gradient={gradient}
-          stack3="devicon-nodejs-plain-wordmark colored project-icon"
-          stack2="devicon-express-original-wordmark colored project-icon"
-          stack1="devicon-javascript-plain colored project-icon"
-          stack4="devicon-sequelize-plain-wordmark colored project-icon"
-          title="Tech Blog "
-          github="https://github.com/JuanMartinez503/Full-Stack-MVC-Tech-Blog"
-          description="I designed and implemented a CMS-style blog site, allowing users to publish, update, and delete their posts while fostering a vibrant community for sharing thoughts and ideas. The website was built from scratch to ensure a seamless and user-friendly experience."
-          appUrl="https://full-stack-mvc-tech-blog-28de33d18a0e.herokuapp.com/"
-        />
+
+
       </div>
     </div>
   );
