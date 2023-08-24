@@ -102,10 +102,10 @@ export default function Home() {
   form={website}
   img={martinezCakes}
   gradient={gradient}
-  stack3="devicon-react-original-wordmark colored project-icon"
+  stack1="devicon-react-original-wordmark colored project-icon"
   stack2="devicon-nodejs-plain-wordmark colored project-icon"
-  stack1="devicon-css3-plain-wordmark colored project-icon"
-  stack4="devicon-mongodb-plain-wordmark colored project-icon"
+  stack4="devicon-css3-plain-wordmark colored project-icon"
+  stack3="devicon-mongodb-plain-wordmark colored project-icon"
   title="Martinez Cakes"
   github="https://github.com/JuanMartinez503/full-stack-cake-website"
   description="An exquisite Full Stack application tailored to showcase the masterful craftsmanship of my sister's cake business. I created this platform from scratch, allowing users to explore a gallery of intricately designed cakes that add an extra layer of joy to special moments. The site is fully bilingual, ensuring accessibility for both English and Spanish-speaking audiences."
