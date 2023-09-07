@@ -82,8 +82,8 @@ export default function Home() {
               <p>Node.js</p>
             </i>
 
-            <i className="devicon-express-original colored skill-icon">
-              <p>Express</p>
+            <i className="devicon-java-plain colored skill-icon">
+              <p>Java</p>
             </i>
             <i className="devicon-mongodb-plain colored skill-icon">
               <p>MongoDB</p>
