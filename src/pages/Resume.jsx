@@ -49,7 +49,8 @@ export default function Resume() {
           <i className="devicon-nodejs-plain colored skill-icon" data-aos="fade-left" >
             <p>Node.js</p>
           </i>
-          <i className="devicon-java-plain colored skill-icon">
+          <i className="devicon-java-plain colored skill-icon"
+          data-aos="fade-left">
               <p>Java</p>
             </i>
 
