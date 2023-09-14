@@ -150,13 +150,21 @@ footer .card-body {
 }
 .skill-icon {
   font-size: 6rem;
-  margin-left: 5%;
-  margin-right: 5%;
+
+ 
+}
+.dev-icon-div{
+  
+  width: 12rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .skill-icon p {
+  
   font-size: 2rem;
+  justify-content: center;
   color: var(--secondary);
-  margin-top: 2%;}
+  margin-top: 1%;}
 .skills-project-title {
   font-size: 3rem;
 }
@@ -312,6 +320,9 @@ font-size: 2.2rem;
   #home-intro p{
     
     font-size: 1.1rem;
+  }
+  .dev-icon-div{
+    width: 8rem;
   }
   .skill-icon {
     font-size: 3rem;

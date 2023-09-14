@@ -1,6 +1,6 @@
 import Project from "../components/Project";
 import perSocial from "../images/petsocialmedia.png";
-import martinezCakes from '../images/martinezcakes.png'
+import martinezCakes from "../images/martinezcakes.png";
 import Aos from "aos";
 
 import "aos/dist/aos.css";
@@ -60,57 +60,75 @@ export default function Home() {
         <div className="m-1 fronted " data-aos="flip-right">
           <h3 className="d-flex">Front-End:</h3>
           <div className="home-skills-icon-cont d-flex flex-wrap text-center justify-content-between">
-            <i className="devicon-react-original colored skill-icon">
-              <p>React</p>
-            </i>
+            <div className="dev-icon-div">
+              <i className="devicon-react-original colored skill-icon">
+                <p>React</p>
+              </i>
+            </div>
 
-            <i className="devicon-javascript-plain colored skill-icon">
-              <p>Javascript</p>
-            </i>
-            <i className="devicon-jquery-plain colored skill-icon">
-              <p>JQuery</p>
-            </i>
-            <i className="devicon-css3-plain colored skill-icon">
-              <p>CSS</p>
-            </i>
+            <div className="dev-icon-div">
+              <i className="devicon-javascript-plain colored skill-icon">
+                <p>Javascript</p>
+              </i>
+            </div>
+            <div className="dev-icon-div">
+              <i className="devicon-jquery-plain colored skill-icon">
+                <p>JQuery</p>
+              </i>
+            </div>
+            <div className="dev-icon-div">
+              <i className="devicon-css3-plain colored skill-icon">
+                <p>CSS</p>
+              </i>
+            </div>
           </div>
         </div>
         <div className="m-1 my-5 backend" data-aos="flip-left">
           <h3>Back-End:</h3>
           <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
-            <i className="devicon-nodejs-plain colored skill-icon ">
-              <p>Node.js</p>
-            </i>
-
-            <i className="devicon-java-plain colored skill-icon">
-              <p>Java</p>
-            </i>
-            <i className="devicon-mongodb-plain colored skill-icon">
-              <p>MongoDB</p>
-            </i>
-            <i className="devicon-python-plain colored skill-icon">
-              <p>Python</p>
-            </i>
+            <div className="dev-icon-div">
+              {" "}
+              <i className="devicon-nodejs-plain colored skill-icon ">
+                <p>Node.js</p>
+              </i>
+            </div>
+            <div className="dev-icon-div">
+              {" "}
+              <i className="devicon-java-plain colored skill-icon">
+                <p>Java</p>
+              </i>
+            </div>
+            <div className="dev-icon-div">
+              {" "}
+              <i className="devicon-mongodb-plain colored skill-icon">
+                <p>MongoDB</p>
+              </i>
+            </div>
+            <div className="dev-icon-div">
+              <i className="devicon-python-plain colored skill-icon">
+                <p>Python</p>
+              </i>
+            </div>
           </div>
         </div>
       </div>
       <div className="m-1 home-projects">
         <h3>Projects:</h3>
         <Project
-  aos1="fade-left"
-  aos2="fade-right"
-  form={website}
-  img={martinezCakes}
-  gradient={gradient}
-  stack1="devicon-react-original-wordmark colored project-icon"
-  stack2="devicon-nodejs-plain-wordmark colored project-icon"
-  stack4="devicon-css3-plain-wordmark colored project-icon"
-  stack3="devicon-mongodb-plain-wordmark colored project-icon"
-  title="Martinez Cakes"
-  github="https://github.com/JuanMartinez503/full-stack-cake-website"
-  description="An exquisite Full Stack application tailored to showcase the masterful craftsmanship of my sister's cake business. I created this platform from scratch, allowing users to explore a gallery of intricately designed cakes that add an extra layer of joy to special moments. The site is fully bilingual, ensuring accessibility for both English and Spanish-speaking audiences."
-  appUrl="https://martinezcakes.com/"
-/>
+          aos1="fade-left"
+          aos2="fade-right"
+          form={website}
+          img={martinezCakes}
+          gradient={gradient}
+          stack1="devicon-react-original-wordmark colored project-icon"
+          stack2="devicon-nodejs-plain-wordmark colored project-icon"
+          stack4="devicon-css3-plain-wordmark colored project-icon"
+          stack3="devicon-mongodb-plain-wordmark colored project-icon"
+          title="Martinez Cakes"
+          github="https://github.com/JuanMartinez503/full-stack-cake-website"
+          description="An exquisite Full Stack application tailored to showcase the masterful craftsmanship of my sister's cake business. I created this platform from scratch, allowing users to explore a gallery of intricately designed cakes that add an extra layer of joy to special moments. The site is fully bilingual, ensuring accessibility for both English and Spanish-speaking audiences."
+          appUrl="https://martinezcakes.com/"
+        />
         <Project
           aos1="fade-right"
           form={website}
@@ -126,9 +144,6 @@ export default function Home() {
           description="Step into a world where adorable pets rule the social media kingdom! As the lead developer, I proudly present a full-stack application that lets users create accounts for their pets, sparking charming interactions with other delightful companions. 🐾💛"
           appUrl="https://full-stack-pet-social-media-698fb2b195ab.herokuapp.com/"
         />
-
-
-
       </div>
     </div>
   );
