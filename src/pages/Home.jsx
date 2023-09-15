@@ -15,7 +15,7 @@ export default function Home() {
   const gradientReverse = "project-info-bg-reverse flex-wrap";
   const gradient = "project-info-bg flex-wrap";
   return (
-    <div>
+    <div className=" overflow-hidden">
       <div className="intro d-flex flex-wrap top" data-aos="zoom-in">
         <img
           id="headshot"

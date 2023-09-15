@@ -10,6 +10,8 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Pangolin', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
 
   
 }
@@ -20,7 +22,12 @@ font-family: 'Poppins', sans-serif;
   --complementary:  #f0f0f0;
 
 }
+html{
+  scroll-behavior: smooth;
+
+}
 body {
+  width: 100% !important;
   background-image: linear-gradient(to bottom, var(--third), var(--complementary)) !important;
 
 }
@@ -29,6 +36,8 @@ header{
 }
 
 #nav {
+
+  width: 100% !important;
   background-color: var(--secondary) !important;
   box-shadow: 2px 2px 5px;
   
@@ -254,6 +263,13 @@ transition: all .4s;
   border: 1px solid var(--secondary);
   border-radius: 10px;
   padding: 1%;
+
+} 
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap !important;
+  overflow: hidden;
 
 }
 #portfolio h4 {

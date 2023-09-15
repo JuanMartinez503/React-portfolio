@@ -13,7 +13,7 @@ export default function Portfolio() {
   const gradient = "project-info-bg flex-wrap";
 
   return (
-    <div id="portfolio">
+    <div id="portfolio" className="d-flex flex-wrap">
       <h3 className="mx-3 text-center">
         Welcome to my project showcase! Below, you'll find a selection of my
         most notable projects. For a more comprehensive view of my work, feel

@@ -5,8 +5,8 @@ export default function Resume() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div>
-      <h2 className="m-1 p-3 text-center ">
+    <div className=" overflow-hidden">
+      <h2 className="m-1 p-3 text-center  ">
         Click the link below to access my professional resume and learn more
         about my qualifications and experience.
       </h2>
