@@ -38,7 +38,7 @@ export default function NavBar() {
                   <Link className={
                       currentURL === "/portfolio" ? "nav-link active" : "nav-link"
                     } to="/portfolio">
-                    Portfolio
+                    Projects
                   </Link>
                 </li>
               

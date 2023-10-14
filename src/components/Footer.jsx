@@ -3,7 +3,8 @@ export default function Footer() {
   return (
     <footer>
       <div className=" mt-3 p-3 card">
-        <div className="card-header text-center" >Full Stack Developer</div>
+        <div className="card-header text-center" ><div to="/" className="navbar-brand">Juan Martinez <br className='mt-1'/>
+            <div id="full-stack" className="text-center ">Full Stack Developer</div></div></div>
         <div className="card-body">
           <blockquote className="blockquote mb-0 text-center ">
             <p>

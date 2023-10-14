@@ -3,7 +3,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Libre+Bodoni&family=Open+Sans:ital@1&family=Pangolin&family=Playfair+Display&family=Poppins&display=swap');
 
 * {
-  text-shadow: .5px .5px 1px black;
+  color: var(--complementary);
+  text-shadow: .5px .5px black;
   font-family: 'Amatic SC', cursive;
 font-family: 'Libre Bodoni', serif;
 font-family: 'Open Sans', sans-serif;
@@ -18,8 +19,9 @@ padding: 0;
 :root {
   --primary: #b172e4;
   --secondary:#383636;
-  --third: #e0e0e0;
-  --complementary:  #f0f0f0;
+  --third: #183636;
+  --complementary:  #f5f5f5;
+  --secondbg: #d0d0d0;
 
 }
 html{
@@ -28,7 +30,7 @@ html{
 }
 body {
   width: 100% !important;
-  background-image: linear-gradient(to bottom, var(--third), var(--complementary)) !important;
+  background-image: linear-gradient(to bottom, var(--third), var(--secondbg)) !important;
 
 }
 header{
@@ -39,11 +41,12 @@ header{
 
   width: 100% !important;
   background-color: var(--secondary) !important;
-  box-shadow: 2px 2px 5px;
+  box-shadow: 1px 1px 5px var(--complementary);
+  
   
 }
 nav li a {
-  color: var(--third) !important;
+  color: var(--complementary) !important;
   font-size: 1.3rem !important;
 
 }
@@ -60,7 +63,7 @@ bottom: 25%;
 }
 
 nav li a:hover {
-  font-size: 1.5rem !important;
+  font-size: 1.35rem !important;
   transition: all .3s;
   text-shadow: 1px 1px 2px var(--primary);
 
@@ -74,7 +77,7 @@ nav li a:hover {
 .navbar-brand  {
   position: relative;
   width: auto;
-  color: #b6ebf4 !important; 
+  color: var(--primary) !important; 
   font-size: 1.8rem !important;
   margin: 0;
   padding: 0;
@@ -84,7 +87,7 @@ nav li a:hover {
   width: 100%;
   position: absolute;
   top: 70%;
-  color: var(--primary);
+  color: var(--complementary);
   align-items: center;
   font-size: .8rem;
   padding: 0 !important;
@@ -119,7 +122,7 @@ footer .card-body {
   
 }
 .devicon-github-original{
-  color: var(--third);
+  color: var(--complementary);
 
 }
 #logo-png{
@@ -140,7 +143,7 @@ footer .card-body {
 
 #home-intro{
   margin-left: 1%;
-  border: 1px solid black;
+  border: 1px solid var(--complementary);
   width: 51%;
   box-shadow:0 0 10px;
   border-radius: 20px;
@@ -148,7 +151,7 @@ footer .card-body {
 #home-intro p{
   line-height: 1.5;
   font-size: 1.2rem;
-  color: var(--secondary);
+  color: var(--complementary);
 }
 #j{
   font-size: 1.5em;
@@ -172,7 +175,7 @@ footer .card-body {
   
   font-size: 2rem;
   justify-content: center;
-  color: var(--secondary);
+  color: var(--complementary);
   margin-top: 1%;}
 .skills-project-title {
   font-size: 3rem;
@@ -245,11 +248,15 @@ transition: all .4s;
 }
 #project-info p {
   font-size: 1.3rem;
+  color: var(--secondary ) !important;
+
 }
 #project-info h4 {
   text-decoration: none;
   font-size: 2rem;
   text-shadow: 1px 1px 2px var(--primary);
+  color: var(--secondary ) !important;
+
 }
 .project-icon{
   margin-right: 2%;
@@ -319,6 +326,7 @@ font-size: 2.2rem;
     right: .1rem;
     font-size: .5rem;
   }
+
   #headshot {
     width: 90%;
     margin: 0 auto;
@@ -339,12 +347,14 @@ font-size: 2.2rem;
   }
   .dev-icon-div{
     width: 8rem;
-    margin-right: 12%;
   }
   .skill-icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .skill-icon p {
+    font-size: 1.5rem;
   }
   #project-component img {
     width: 90%;
@@ -385,6 +395,13 @@ font-size: 2.2rem;
       #portfolio h3{
         font-size: 1rem;
       }
+      .skill-icon p{
+        font-size: 1rem;
+      }
+      .dev-icon-div{
+        width: 7rem;
+      }
+    
     }
     @media screen and (max-width: 320px) {
       nav li #home:hover::before{
@@ -401,6 +418,10 @@ font-size: 2.2rem;
       nav ul {
         width: 60%;
         margin: 2% auto;
+      }
+      .dev-icon-div{
+        text-align: center;
+        width: 100%;
       }
     }
 

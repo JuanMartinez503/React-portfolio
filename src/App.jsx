@@ -12,8 +12,11 @@ function App() {
   return (
     <>
   <NavBar />
+  <div className="p-2">
   <Outlet />
   <BackToTopBtn />
+  </div>
+
   <Footer />
 
     </>

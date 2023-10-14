@@ -1,5 +1,5 @@
 import Project from "../components/Project";
-import perSocial from "../images/petsocialmedia.png";
+import perSocial from "../images/expensetracker.png";
 import martinezCakes from "../images/martinezcakes.png";
 import Aos from "aos";
 
@@ -16,7 +16,7 @@ export default function Home() {
   const gradient = "project-info-bg flex-wrap";
   return (
     <div className=" overflow-hidden">
-      <div className="intro d-flex flex-wrap top" data-aos="zoom-in">
+      <div className="intro d-flex flex-wrap top mt-3" data-aos="zoom-in">
         <img
           id="headshot"
           src={headshot}
@@ -67,8 +67,8 @@ export default function Home() {
             </div>
 
             <div className="dev-icon-div">
-              <i className="devicon-javascript-plain colored skill-icon">
-                <p>Javascript</p>
+              <i className="devicon-typescript-plain colored skill-icon">
+                <p>TypeScript</p>
               </i>
             </div>
             <div className="dev-icon-div">
@@ -135,14 +135,14 @@ export default function Home() {
           gradient={gradientReverse}
           aos2="fade-left"
           img={perSocial}
-          stack3="devicon-tailwindcss-plain colored project-icon"
-          stack2="devicon-mysql-plain-wordmark colored project-icon"
-          stack1="devicon-javascript-plain colored project-icon"
-          stack4="devicon-handlebars-plain-wordmark  project-icon"
-          title=" P🐾st: Pet Social Media "
-          github="https://github.com/JuanMartinez503/Full-stack-pet-socia-media"
-          description="Step into a world where adorable pets rule the social media kingdom! As the lead developer, I proudly present a full-stack application that lets users create accounts for their pets, sparking charming interactions with other delightful companions. 🐾💛"
-          appUrl="https://full-stack-pet-social-media-698fb2b195ab.herokuapp.com/"
+          stack3="devicon-bootstrap-plain colored project-icon"
+          stack2="devicon-heroku-plain-wordmark colored project-icon"
+          stack1="devicon-react-plain colored project-icon"
+          stack4="devicon-nodejs-plain-wordmark colored  project-icon"
+          title="Expense Tracker"
+          github="https://github.com/JuanMartinez503/mern-fullstack-expense-tracker"
+          description="Expense Tracker is a robust full-stack MERN application that I developed post my coding bootcamp to enhance my skills and empower users in managing their finances. With features like expense tracking, budget setting, and real-time spending visualization, it offers a user-friendly and secure platform to achieve financial success while I'm committed to continuous learning and skill improvement."
+          appUrl="https://expense-tracker-mern-2023-3423c6e63a4e.herokuapp.com/"
         />
       </div>
     </div>

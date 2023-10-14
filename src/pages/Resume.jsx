@@ -37,6 +37,12 @@ export default function Resume() {
                 <p>Javascript</p>
               </i>
             </div>
+            <div className="dev-icon-div" data-aos="fade-right">
+              {" "}
+              <i className="devicon-typescript-plain colored skill-icon">
+                <p>TypeScript</p>
+              </i>
+            </div>
             <div className="dev-icon-div" data-aos="fade-left">
               {" "}
               <i className="devicon-react-original colored skill-icon">

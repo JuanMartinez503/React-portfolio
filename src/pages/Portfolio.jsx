@@ -2,7 +2,7 @@ import Project from "../components/Project";
 import perSocial from "../images/petsocialmedia.png";
 import techBlog from "../images/techblog.png";
 import mongoDB from "../images/mongo.png";
-import weather from "../images/weather.png";
+import weather from "../images/expensetracker.png";
 import movies from "../images/movies.png";
 import martinezCakes from "../images/martinezcakes.png";
 
@@ -81,21 +81,21 @@ export default function Portfolio() {
         description="As the lead developer of a collaborative effort, we successfully created a user-friendly website that allows users to search for movie information, including Title, Year Released, Genre, and Plot. Additionally, the site seamlessly auto-generates data on the streaming services currently featuring the movie, while saving past searches using local storage. Our team skillfully integrated APIs to fetch movie details, providing an interactive and engaging experience for users."
         appUrl="https://juanmartinez503.github.io/Movie-Search-Engine/"
       />
-      <Project
-        aos1="fade-right"
-        aos2="fade-left"
-        form={website}
-        gradient={gradient}
-        img={weather}
-        stack3="devicon-css3-plain colored project-icon"
-        stack2="devicon-html5-plain-wordmark colored project-icon"
-        stack1="devicon-javascript-plain colored project-icon"
-        stack4="devicon-bootstrap-plain-wordmark colored project-icon"
-        title="Weather Dashboard"
-        github="https://github.com/JuanMartinez503/WeatherApp-JuanM"
-        description="I undertook the task of dynamically updating HTML and CSS using weather API data. Starting from scratch, I skillfully utilized HTML, CSS, and JavaScript to create an interactive web application. To enhance the user interface, I incorporated Bootstrap CSS for stylish buttons and form elements, resulting in a seamless and engaging user experience."
-        appUrl="https://juanmartinez503.github.io/WeatherApp-JuanM/"
-      />
+        <Project
+          aos1="fade-right"
+          form={website}
+          gradient={gradientReverse}
+          aos2="fade-left"
+          img={weather}
+          stack3="devicon-bootstrap-plain colored project-icon"
+          stack2="devicon-heroku-plain-wordmark colored project-icon"
+          stack1="devicon-react-plain colored project-icon"
+          stack4="devicon-nodejs-plain-wordmark colored  project-icon"
+          title="Expense Tracker"
+          github="https://github.com/JuanMartinez503/mern-fullstack-expense-tracker"
+          description="Expense Tracker is a robust full-stack MERN application that I developed post my coding bootcamp to enhance my skills and empower users in managing their finances. With features like expense tracking, budget setting, and real-time spending visualization, it offers a user-friendly and secure platform to achieve financial success while I'm committed to continuous learning and skill improvement."
+          appUrl="https://expense-tracker-mern-2023-3423c6e63a4e.herokuapp.com/"
+        />
       <Project
         aos1="fade-left"
         aos2="fade-right"
