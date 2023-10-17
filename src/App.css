@@ -18,10 +18,10 @@ padding: 0;
 }
 :root {
   --primary: #b172e4;
-  --secondary:#383636;
-  --third: #183636;
+  --secondary:#2d4255;
+  --third: #1f6565;
   --complementary:  #f5f5f5;
-  --secondbg: #d0d0d0;
+  --secondbg: #c4c1c1;
 
 }
 html{
@@ -41,9 +41,22 @@ header{
 
   width: 100% !important;
   background-color: var(--secondary) !important;
-  box-shadow: 1px 1px 5px var(--complementary);
+  box-shadow: 3px 3px 10px var(--complementary);
+  position: relative
+;
+z-index: 1;
   
-  
+}
+#nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background-color: inherit !important;
+  filter: blur(10px); /* Adjust the blur amount as needed */
+  z-index: -1; /* Place the background behind the content */
 }
 nav li a {
   color: var(--complementary) !important;
@@ -103,8 +116,23 @@ nav li a:hover {
 
 
 footer .mt-3 {
+  width: 100%;
   background-color: var(--secondary) !important;
+  position: relative;
+  z-index: 1;
 }
+footer .mt3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background-color: inherit !important;
+  filter: blur(10px); /* Adjust the blur amount as needed */
+  z-index: -1; /* Place the background behind the content */
+}
+
 footer .card-header {
   color: var(--primary);
   font-size: 1.6rem;
@@ -143,15 +171,32 @@ footer .card-body {
 
 #home-intro{
   margin-left: 1%;
-  border: 1px solid var(--complementary);
+  background-color: var(--secondbg);
   width: 51%;
-  box-shadow:0 0 10px;
   border-radius: 20px;
+  color: var(--secondary);
+  position: relative;
+  z-index: 1;
+
 }
+#home-intro::before {
+  
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-color: inherit !important;
+    filter: blur(10px); /* Adjust the blur amount as needed */
+    z-index: -1; /* Place the background behind the content */
+  }
+
 #home-intro p{
   line-height: 1.5;
+  color: var(--secondary);
   font-size: 1.2rem;
-  color: var(--complementary);
 }
 #j{
   font-size: 1.5em;
@@ -266,7 +311,7 @@ transition: all .4s;
 #project-info button {
   font-size: 1rem;
   background-color: var(--primary);
-  color: var(--third);
+  color: var(--complementary);
   border: 1px solid var(--secondary);
   border-radius: 10px;
   padding: 1%;
