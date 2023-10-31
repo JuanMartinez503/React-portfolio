@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <div className="home-skills">
         <div className="m-1 fronted " data-aos="flip-right">
-          <h3 className="d-flex">Front-End:</h3>
+          <h3 className="d-flex">Front-End</h3>
           <div className="home-skills-icon-cont d-flex flex-wrap text-center justify-content-between">
             <div className="dev-icon-div">
               <i className="devicon-react-original colored skill-icon">
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
         <div className="m-1 my-5 backend" data-aos="flip-left">
-          <h3>Back-End:</h3>
+          <h3>Back-End</h3>
           <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
             <div className="dev-icon-div">
               {" "}
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </div>
       <div className="m-1 home-projects">
-        <h3>Projects:</h3>
+        <h3>Projects</h3>
         <Project
           aos1="fade-left"
           aos2="fade-right"

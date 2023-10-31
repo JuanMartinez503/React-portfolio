@@ -17,7 +17,7 @@ export default function Resume() {
       </div>
       <div id="resume-skills">
         <div className="m-1 fronted ">
-          <h3 className="d-flex">Front-End:</h3>
+          <h3 className="d-flex">Front-End</h3>
           <div className="home-skills-icon-cont d-flex flex-wrap text-center justify-content-between">
             <div className="dev-icon-div" data-aos="fade-right">
               {" "}
@@ -80,7 +80,7 @@ export default function Resume() {
             </div>
           </div>
           <div className="m-1 my-5 backend">
-            <h3>Back-End:</h3>
+            <h3>Back-End</h3>
             <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
               <div className="dev-icon-div" data-aos="fade-left">
                 {" "}
@@ -125,7 +125,7 @@ export default function Resume() {
             </div>
           </div>
           <div className="m-1 my-5 backend" data-aos="flip-left">
-            <h3>DevOps:</h3>
+            <h3>DevOps</h3>
 
             <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
               <div className="dev-icon-div" data-aos="fade-left">

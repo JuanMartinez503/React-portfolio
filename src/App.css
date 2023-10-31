@@ -86,7 +86,6 @@ nav li a:hover {
   position: relative;
 }
 
-
 .navbar-brand  {
   position: relative;
   width: auto;
@@ -111,7 +110,7 @@ nav li a:hover {
 }
 .navbar-toggler {
   color: var(--primary) !important; 
-  border: 1px solid var(--primary) !important;
+  border: 1px solid rgba(0, 0, 0, 0.6) !important;
   background-color: var(--primary) !important; 
 
 }
@@ -369,6 +368,8 @@ font-size: 2.2rem;
 }
 #resume a {
   color: var(--primary);
+  text-shadow: 1px 1px black;
+  font-size: 1.2rem;
 }
 
 
@@ -414,6 +415,9 @@ font-size: 2.2rem;
     width: 90%;
     margin: 0 auto;
 
+  }
+  #project-component button {
+    width: 100%;
   }
   #project-info {
     width: 90%;
