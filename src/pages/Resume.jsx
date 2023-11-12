@@ -2,7 +2,7 @@ import Aos from "aos";
 import { useEffect } from "react";
 export default function Resume() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
   return (
     <div className=" overflow-hidden">

@@ -9,7 +9,7 @@ import headshot from "../images/headshot.png";
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 1500, delay: 200 });
+    Aos.init({ duration: 1000});
   }, []);
   const website = "Visit Website!";
   const gradientReverse = "project-info-bg-reverse flex-wrap";
