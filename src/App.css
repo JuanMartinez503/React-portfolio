@@ -388,7 +388,7 @@ font-size: 2.2rem;
     border-bottom: 1px solid !important; 
   }
   #home {
-    padding-left: 2%;
+    padding-left: 2.5%;
   }
   nav li #home:hover::before {
   display: none;
@@ -463,6 +463,7 @@ font-size: 2.2rem;
     
       
       }
+  
       #portfolio h3{
         font-size: 1rem;
       }
