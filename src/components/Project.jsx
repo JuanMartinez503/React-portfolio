@@ -13,8 +13,8 @@ export default function Project ({aos2, aos1, img, description,title, github, st
               <h4 className="text-center">{title} <Link target='_blank' to={github}>
             <i className="devicon-github-original colored"></i>
           </Link></h4>
-              <p>{description}</p>
-              <div className='text-center d-flex'>
+              <p className='text-center'>{description}</p>
+              <div className='text-center'>
 
             <i className={stack1}></i>
           
@@ -24,7 +24,10 @@ export default function Project ({aos2, aos1, img, description,title, github, st
             <i className={stack4}></i>
           
               </div>
+              <div className="text-center">
               <Link to={appUrl} target='_blank'><button>{form}</button></Link>
+
+              </div>
             </div>
         </div>
      </div>
