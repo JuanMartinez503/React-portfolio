@@ -12,10 +12,13 @@ function App() {
   return (
     <>
   <NavBar />
-  <div className="p-2">
+  <main>
+  <div className="px-2">
   <Outlet />
   <BackToTopBtn />
   </div>
+  </main>
+
 
   <Footer />
 

@@ -30,8 +30,12 @@ html{
 }
 body {
   width: 100% !important;
-  background-color: var(--third) !important;
+  background-color: var(--primary) !important;
   min-height: 100vh;
+}
+main{
+  background-color: var(--third) !important;
+  padding-top: 1%;
 }
 header{
   position: relative;
@@ -106,13 +110,14 @@ nav li a:hover {
 }
 
 
-footer .mt-3 {
+footer .p-3 {
   width: 100%;
   background-color: var(--primary) !important;
   position: relative;
   z-index: 1;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.3) !important;
 }
-footer .mt3::before {
+footer .p-3::before {
   content: "";
   position: absolute;
   top: 0;
@@ -350,7 +355,7 @@ font-size: 2rem;
   padding: 1%;
   background-color: var(--primary);
   color: var(--complementary);
-  margin-right: 1%;
+  margin: 1.7%;
   border: 1px solid var(--complementary) !important;
 }
 #scroll-Btn:hover{

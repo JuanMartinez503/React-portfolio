@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <div>
       <header>
-        <nav id="nav" className="navbar mb-3 navbar-expand-lg p-4 bg-body-tertiary">
+        <nav id="nav" className="navbar  navbar-expand-lg p-4 bg-body-tertiary">
           <div className="container-fluid ">
             <Link to="/" className="navbar-brand">Juan Martinez<br />
             <span id="full-stack" className="text-center">Full Stack Developer</span></Link>
