@@ -7,7 +7,7 @@ export default function Project ({aos2, aos1, img, description,title, github, st
     },[])
     return(
      <div>
-           <div id="project-component" className="my-5 m-1 ">
+           <div id="project-component" className="mt-4 m-1 ">
             <img src={img} alt={description} data-aos={aos1}/>
             <div id="project-info" data-aos={aos2} className={gradient}>
               <h4 className="text-center">{title} <Link target='_blank' to={github}>

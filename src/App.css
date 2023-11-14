@@ -17,11 +17,11 @@ padding: 0;
   
 }
 :root {
-  --primary: #b172e4;
-  --secondary:#2d4255;
-  --third: #257272;
+  --primary: #465262;
+  --secondary:#def9f6;
+  --third: #29384d;
   --complementary:  #f5f5f5;
-  --secondbg: #c4c1c1;
+  --secondbg:#fff3d3;
 
 }
 html{
@@ -30,7 +30,7 @@ html{
 }
 body {
   width: 100% !important;
-  background-image: linear-gradient(to bottom, var(--third), var(--secondbg)) !important;
+  background-color: var(--third) !important;
   min-height: 100vh;
 }
 header{
@@ -40,27 +40,17 @@ header{
 #nav {
 
   width: 100% !important;
-  background: linear-gradient(10deg, var(--secondary), var(--primary)) !important;
-  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
-  position: relative
-;
-z-index: 1;
+  
+background-color: var(--primary) !important;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+overscroll-behavior: var(--primary) !important;
+
   
 }
-#nav::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
- background-color: inherit !important;
-  filter: blur(10px); /* Adjust the blur amount as needed */
-  z-index: -1; /* Place the background behind the content */
-}
+
 nav li a {
   color: var(--complementary) !important;
-  font-size: 1.3rem !important;
+  font-size: 1.2rem !important;
 
 }
 nav li #home:hover::before {
@@ -76,7 +66,7 @@ bottom: 25%;
 }
 
 nav li a:hover {
-  font-size: 1.35rem !important;
+  font-size: 1.25rem !important;
   transition: all .3s;
   text-shadow: 1px 1px 2px var(--primary);
 
@@ -90,7 +80,7 @@ nav li a:hover {
   position: relative;
   width: auto;
   text-shadow: 1px 1px black;
-  color: var(--primary) !important; 
+  color: var(--secondbg) !important; 
   font-size: 1.8rem !important;
   margin: 0;
   padding: 0;
@@ -118,7 +108,7 @@ nav li a:hover {
 
 footer .mt-3 {
   width: 100%;
-  background-color: var(--secondary) !important;
+  background-color: var(--primary) !important;
   position: relative;
   z-index: 1;
 }
@@ -155,30 +145,29 @@ footer .card-body {
   color: var(--complementary);
 
 }
-#logo-png{
-  
-}
+
 #headshot {
   width: 45%;
-  border: 1px solid var(--primary);
   margin-left: 1%;
   border-radius: 20px;
   margin-right: 1%;
   position: relative; 
   filter: brightness(.85);
-  box-shadow:  0 0 5px;
+  box-shadow:  0 0 5px rgba(255, 255, 255, 0.2);
 }
 
 /* Add a dark filter using ::before pseudo-element */
 
 #home-intro{
   margin-left: 1%;
-  background-color: var(--secondbg);
+  background-color: var(--primary);
   width: 51%;
   border-radius: 20px;
   color: var(--secondary);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   position: relative;
   z-index: 1;
+  
 
 }
 #home-intro::before {
@@ -197,15 +186,15 @@ footer .card-body {
 
 #home-intro p{
   line-height: 1.5;
-  color: var(--secondary);
+  color: var(--complementary);
   font-size: 1.2rem;
 }
 #j{
   font-size: 1.5em;
-  color: var(--primary);
+  color: var(--secondbg);
 }
 #uan{
-  color: var(--primary);
+  color: var(--secondbg);
 }
 .skill-icon {
   font-size: 6rem;
@@ -222,10 +211,11 @@ footer .card-body {
   
   font-size: 2rem;
   justify-content: center;
-  color: var(--complementary);
+  color: var(--complementary) !important;
   margin-top: 1%;}
 .skills-project-title {
   font-size: 3rem;
+  color: var(--secondbg);
 }
 .skills-project-title-p {
   font-size: 1.3rem;
@@ -234,6 +224,7 @@ footer .card-body {
   margin-bottom: 2%;
   
   font-size: 2.5rem;
+  color: var(--secondbg);
   text-shadow: 1px 1px 3px var(--primary);
 }
 #project-component{
@@ -258,32 +249,29 @@ footer .card-body {
   transform: translateY(-5px);
   border: none;
 }
-#project-info {
 
-}
 .project-info-bg{
-  background: linear-gradient(135deg,  #b6ebf4, #d8a5e6);
+  background-color: var(--primary);
 
 
   margin-left: 2%;
   width: 48%;
   height: 100%;
-  border: 1px solid black;
   border-radius: 20px;
   padding: 2%;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .project-info-bg-reverse{
-  background: linear-gradient(135deg,  #d8a5e6, #b6ebf4);
+  background-color: var(--primary);
 
 
   margin-left: 2%;
   width: 48%;
   height: 100%;
-  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
   border-radius: 20px;
   padding: 2%;
-  box-shadow: 0 0 10px black;
 }
 #project-info a {
   text-decoration: none;
@@ -291,20 +279,20 @@ footer .card-body {
   
 }
 #project-info button:hover {
-transform: scale(1.05);
+transform: scale(1.04);
 transition: all .4s;
   
 }
 #project-info p {
-  font-size: 1.3rem;
-  color: var(--secondary ) !important;
+  font-size: 1.2rem;
+  color: var(--complementary ) !important;
 
 }
 #project-info h4 {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem !important;
   text-shadow: 1px 1px 2px var(--primary);
-  color: var(--secondary ) !important;
+  color: var(--secondbg ) !important;
 
 }
 .project-icon{
@@ -314,9 +302,9 @@ transition: all .4s;
 
 #project-info button {
   font-size: 1rem;
-  background-color: var(--primary);
-  color: var(--complementary);
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--complementary);
+  background-color: var(--third);
+  color: var(--secondary);
   border-radius: 10px;
   padding: 1%;
 
@@ -330,6 +318,7 @@ transition: all .4s;
 }
 #portfolio h4 {
   font-size: 3rem;
+  color:var(--secondbg);
   text-shadow: 1px 1px 5px var(--primary);
   margin: 1%;
 }
@@ -344,30 +333,32 @@ transition: all .4s;
   margin-left: 1%;
   padding: 0 8% 0 8%;
   
-line-height: 1.7;
-font-size: 2.2rem;
+line-height: 1.5;
+font-size: 2rem;
 }
 #about h2{
-  color: var(--primary); 
+  color: var(--secondbg); 
   font-size: 3rem;
 }
 .active {
-  color: #75d3e8 !important;
-  font-size: 1.5rem !important;
-  transform: translateY(-10px);
+  color: var(--secondary) !important;
+  font-size: 1.25rem !important;
+  transform: translateY(-5px);
   text-decoration: dashed black !important;
 }
 #scroll-Btn{
   padding: 1%;
-  background: linear-gradient(135deg, #b07ed9, #75d3e8);
+  background-color: var(--primary);
+  color: var(--complementary);
   margin-right: 1%;
+  border: 1px solid var(--complementary) !important;
 }
 #scroll-Btn:hover{
-  transform: scale(1.1);
+  transform: scale(1.08);
   transition: all .4s;
 }
 #resume a {
-  color: var(--primary);
+  color: var(--secondbg);
   text-shadow: 1px 1px black;
   font-size: 1.2rem;
 }
@@ -435,7 +426,7 @@ font-size: 2.2rem;
   #project-info {
     width: 90%;
     margin: 4% auto;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }  
   #about img {
     width: 50%;

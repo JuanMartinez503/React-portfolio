@@ -20,7 +20,7 @@ export default function Portfolio() {
         free to explore my GitHub repository. Let's embark on a journey through
         creativity and innovation!
       </h3>
-      <h4 className="my-3 text-center">Projects</h4>
+      <h4 className="my-2 text-center">Projects</h4>
       <Project
         aos1="fade-left"
         aos2="fade-right"
