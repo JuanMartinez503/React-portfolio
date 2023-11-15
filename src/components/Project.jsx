@@ -25,7 +25,7 @@ export default function Project ({aos2, aos1, img, description,title, github, st
           
               </div>
               <div className="text-center">
-              <Link to={appUrl} target='_blank'><button>{form}</button></Link>
+              <Link to={appUrl} target='_blank' className='shadow'><button>{form}</button></Link>
 
               </div>
             </div>

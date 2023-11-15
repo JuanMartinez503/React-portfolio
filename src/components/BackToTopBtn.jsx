@@ -18,7 +18,7 @@ export default function BackToTopBtn (){
         })
     }
     return (
-        <div>
+        <div >
             {backToTopButton && ( <div className='d-flex justify-content-end'>
                 <button id='scroll-Btn' className='btn' onClick={scrollUp}>Scroll to top</button>
             </div>

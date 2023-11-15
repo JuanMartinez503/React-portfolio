@@ -13,7 +13,7 @@ export default function About() {
         data-aos="flip-right"
         className="my-3"
       />
-      <div data-aos="flip-left">
+      <div data-aos="flip-left" className="about-sec-cont">
         <h2 className="text-center">Hello there!</h2>
         <div className="text-center">
           <p>

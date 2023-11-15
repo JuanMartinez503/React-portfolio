@@ -22,29 +22,22 @@ export default function Home() {
           src={headshot}
           alt="A picture of myself smiling with my arms crossed"
         />
-        <div id="home-intro" className="text-center p-1 flex-wrap">
-          <h2>
-            {" "}
-            Hi there, I'm <span id="j">J</span>
-            <span id="uan">uan</span>, a Full Stack Developer!
-          </h2>
-          <p>
-            With a strong passion for creating captivating web experiences, I
-            specialize in crafting clean code and designing intuitive user
-            interfaces. My expertise lies in bringing innovation to life through
-            dynamic web applications.
-          </p>
-          <p>
-            Throughout my journey as a developer, I have actively explored the
-            ever-evolving world of web development, continuously acquiring new
-            skills and staying up-to-date with cutting-edge technologies.
-          </p>
-          <p>
-            I invite you to explore my projects that showcase my abilities, and
-            I am excited to connect with you to discuss any potential
-            collaboration or project opportunities.
-          </p>
-        </div>
+ <div id="home-intro" className="text-center p-1 flex-wrap">
+  <h2>
+    Hi there, I'm <span id="j">J</span>
+    <span id="uan">uan</span>, a Full Stack Developer!
+  </h2>
+  <p>
+    With a strong passion for crafting captivating web experiences, I specialize in writing clean code and designing intuitive user interfaces. My expertise lies in bringing innovation to life through dynamic web applications.
+  </p>
+  <p>
+    Throughout my journey as a developer, I've actively explored the ever-evolving world of web development, accumulating over 2,000 hours of hands-on experience and staying up-to-date with cutting-edge technologies.
+  </p>
+  <p>
+    I invite you to explore my projects, showcasing my skills. I'm excited to connect with you to discuss potential collaborations or project opportunities.
+  </p>
+</div>
+
       </div>
 
       <div className="py-4 m-1 text-center" data-aos="fade-right">
