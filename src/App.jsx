@@ -13,7 +13,7 @@ function App() {
     <>
   <NavBar />
   <main>
-  <div className="px-2">
+  <div className="px-3">
   <Outlet />
   <BackToTopBtn />
   </div>
