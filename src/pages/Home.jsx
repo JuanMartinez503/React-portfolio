@@ -53,7 +53,7 @@ export default function Home() {
         </h3>
         <p className="skills-project-title-p">
           For a comprehensive showcase of my capabilities and accomplishments,
-          head over to my portfolio and resume section.
+          head over to my project and resume section.
         </p>
       </div>
       <div className="home-skills">

@@ -10,7 +10,7 @@ export default function Resume() {
         Click the link below to access my professional resume and learn more
         about my qualifications and experience.
       </h2>
-      <div className="my-5 text-center" id="resume">
+      <div className="my-2 text-center" id="resume">
         <a href="/JuanM-resume.pdf" download>
           Download my Resume
         </a>
