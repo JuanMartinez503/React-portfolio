@@ -10,7 +10,7 @@ export default function NavBar() {
             <Link to="/" className="navbar-brand">Juan Martinez<br />
             <span id="full-stack" className="text-center">Full Stack Developer</span></Link>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler btn"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarScroll"

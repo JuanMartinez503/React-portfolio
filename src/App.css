@@ -108,7 +108,9 @@ nav li a:hover {
   background-color: var(--primary) !important; 
 
 }
-
+.navbar-toggler:focus{
+  background-color: #29384d !important;
+}
 
 footer .p-3 {
   width: 100%;
