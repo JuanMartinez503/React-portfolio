@@ -95,11 +95,30 @@ nav li a:hover {
   width: 100%;
   position: absolute;
   top: 70%;
+  text-shadow: none;
   color: var(--complementary);
   align-items: center;
   font-size: .8rem;
   padding: 0 !important;
   margin: 0 !important;
+
+  background: linear-gradient(to right, rgba(0, 168, 253), #fff 35%, #e00a95);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 75%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 70%;
+  }
   
 }
 .navbar-toggler {
