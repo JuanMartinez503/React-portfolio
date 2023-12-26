@@ -127,6 +127,10 @@ nav li a:hover {
   background-color: var(--primary) !important; 
 
 }
+.loading-ani{
+  text-align: center;
+  min-height: 100vh;
+}
 .navbar-toggler:focus{
   background-color: #29384d !important;
 }
@@ -138,6 +142,74 @@ footer .p-3 {
   z-index: 1;
   box-shadow:0 0 10px rgba(0, 0, 0, 0.3) !important;
 }
+@keyframes ldio-5xo4mkmi3hi-1 {
+  0% { transform: rotate(0deg) }
+ 50% { transform: rotate(-45deg) }
+100% { transform: rotate(0deg) }
+}
+@keyframes ldio-5xo4mkmi3hi-2 {
+  0% { transform: rotate(180deg) }
+ 50% { transform: rotate(225deg) }
+100% { transform: rotate(180deg) }
+}
+.ldio-5xo4mkmi3hi > div:nth-child(2) {
+transform: translate(-15px,0);
+}
+.ldio-5xo4mkmi3hi > div:nth-child(2) div {
+position: absolute;
+top: 40px;
+left: 40px;
+width: 120px;
+height: 60px;
+border-radius: 120px 120px 0 0;
+background: var(--secondbg);
+animation: ldio-5xo4mkmi3hi-1 1s linear infinite;
+transform-origin: 60px 60px
+}
+.ldio-5xo4mkmi3hi > div:nth-child(2) div:nth-child(2) {
+animation: ldio-5xo4mkmi3hi-2 1s linear infinite
+}
+.ldio-5xo4mkmi3hi > div:nth-child(2) div:nth-child(3) {
+transform: rotate(-90deg);
+animation: none;
+}@keyframes ldio-5xo4mkmi3hi-3 {
+  0% { transform: translate(190px,0); opacity: 0 }
+ 20% { opacity: 1 }
+100% { transform: translate(70px,0); opacity: 1 }
+}
+.ldio-5xo4mkmi3hi > div:nth-child(1) {
+display: block;
+}
+.ldio-5xo4mkmi3hi > div:nth-child(1) div {
+position: absolute;
+top: 92px;
+left: -8px;
+width: 16px;
+height: 16px;
+border-radius: 50%;
+background: #e00a95;
+animation: ldio-5xo4mkmi3hi-3 1s linear infinite
+}
+.ldio-5xo4mkmi3hi > div:nth-child(1) div:nth-child(1) { animation-delay: -0.67s }
+.ldio-5xo4mkmi3hi > div:nth-child(1) div:nth-child(2) { animation-delay: -0.33s }
+.ldio-5xo4mkmi3hi > div:nth-child(1) div:nth-child(3) { animation-delay: 0s }
+.loadingio-spinner-bean-eater-de1oa476p74 {
+width: 200px;
+height: 200px;
+display: inline-block;
+overflow: hidden;
+background: var(--third);
+}
+.ldio-5xo4mkmi3hi {
+width: 100%;
+height: 100%;
+position: relative;
+transform: translateZ(0) scale(1);
+backface-visibility: hidden;
+transform-origin: 0 0; /* see note above */
+}
+.ldio-5xo4mkmi3hi div { box-sizing: content-box; }
+
 footer .p-3::before {
   content: "";
   position: absolute;

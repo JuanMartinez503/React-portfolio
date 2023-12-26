@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
@@ -8,9 +9,9 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 import Home from './pages/Home.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
-import Portfolio from './pages/Portfolio.jsx'
-import Resume from './pages/Resume.jsx'
-import About from './pages/About.jsx'
+const LazyPortfolio = React.lazy(()=>import ('./pages/Portfolio.jsx'))
+const LazyResume = React.lazy(()=>import('./pages/Resume.jsx'))
+const LazyAbout = React.lazy(()=>import('./pages/About.jsx'))
 const router = createBrowserRouter([
   {
     path:'/',
@@ -23,16 +24,16 @@ const router = createBrowserRouter([
       },
       {
         path:'/about',
-        element: <About />
+        element: <LazyAbout />
       },
       {
         path:'/resume',
-        element: <Resume />
+        element: <LazyResume/>
       },
   
       {
         path:'/portfolio',
-        element: <Portfolio />
+        element: <LazyPortfolio />
       }
 
     ]
