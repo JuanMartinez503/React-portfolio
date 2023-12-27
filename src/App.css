@@ -106,7 +106,7 @@ nav li a:hover {
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 10s linear infinite;
+  animation: gradient 15s linear infinite;
 }
 
 @keyframes gradient {
