@@ -49,6 +49,14 @@ export default function Resume() {
                 <p>React</p>
               </i>
             </div>
+            <div className="dev-icon-div" data-aos="fade-left">
+              {" "}
+              
+            <i className="devicon-nextjs-original colored skill-icon">
+          
+                <p>Next.js</p>
+              </i>
+            </div>
             <div className="dev-icon-div" data-aos="fade-right">
               {" "}
               <i className="devicon-jquery-plain colored skill-icon">

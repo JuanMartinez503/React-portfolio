@@ -566,7 +566,7 @@ font-size: 2rem;
   @media screen and (max-width: 640px) {
     #project-info p {
       padding: 2%;
-      font-size: 1.1rem;
+      font-size: .8rem;
     }
     #about p {
       font-size: 1.1rem
