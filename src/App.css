@@ -291,10 +291,10 @@ footer .card-body {
   }
 
 #home-intro p{
-  line-height: 1.4;
+  line-height: 1.3;
   color: var(--complementary);
-  font-size: 1.1rem;
-  padding: 1%;
+  font-size: 1rem;
+  
 }
 #j{
   font-size: 1.5em;

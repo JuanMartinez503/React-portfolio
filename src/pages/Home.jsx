@@ -2,6 +2,7 @@ import Project from "../components/Project";
 import perSocial from "../images/expensetracker.png";
 import martinezCakes from "../images/martinezcakes.png";
 import tourismGPT from '../images/tourismGPT.png'
+import dietTalk from "../images/diettalk.png";
 import Aos from "aos";
 
 import "aos/dist/aos.css";
@@ -28,15 +29,11 @@ export default function Home() {
     Hi there, I'm <span id="j">J</span>
     <span id="uan">uan</span>, a Full Stack Developer!
   </h2>
-  <p>
-    With a strong passion for crafting captivating web experiences, I specialize in writing clean code and designing intuitive user interfaces. My expertise lies in bringing innovation to life through dynamic web applications.
-  </p>
-  <p>
-    Throughout my journey as a developer, I've actively explored the ever-evolving world of web development, accumulating over 2,000 hours of hands-on experience and staying up-to-date with cutting-edge technologies.
-  </p>
-  <p>
-    I invite you to explore my projects, showcasing my skills. I'm excited to connect with you to discuss potential collaborations or project opportunities.
-  </p>
+  <p>Fueled by a passion for creating engaging web experiences, I excel in developing clean code and intuitive interfaces. My journey in web development, enriched by over 2,000 hours of hands-on experience and a commitment to staying abreast of the latest technologies, reflects my dedication to innovation and excellence.</p>
+<p>Currently, I am deepening my knowledge and skills through a Master of Science in Computer Science at Ball State University, which complements my practical experience with advanced theoretical insights.</p>
+<p>My portfolio highlights my capability to breathe life into dynamic web applications, showcasing my blend of artistic flair and technical acumen. I am keen on exploring collaborative opportunities or project engagements where I can leverage my skills and academic background.</p>
+<p>Let's connect to discuss how we can transform innovative visions into reality with cutting-edge web technology.</p>
+
 </div>
 
       </div>
@@ -177,6 +174,21 @@ export default function Home() {
           aos1="fade-left"
           aos2="fade-right"
           form={website}
+          img={dietTalk}
+          gradient={gradient}
+          stack1="devicon-react-original-wordmark colored project-icon"
+          stack2="devicon-nodejs-plain-wordmark colored project-icon"
+          stack4="devicon-css3-plain-wordmark colored project-icon"
+          stack3="devicon-mongodb-plain-wordmark colored project-icon"
+          title="Diet Talk"
+          github="https://github.com/JuanMartinez503/"
+          description="Diet Talk, a full-stack app, redefines the weight loss journey by integrating AI-driven personal coaching with a supportive community. Key features include 24/7 tailored advice through an AI chat, direct messaging for private support, groups for shared interests, and customizable profiles for personal expression. This platform not only offers personalized wellness guidance but also fosters a vibrant community, making each step towards health and wellness both supported and celebrated."
+          appUrl="https://diettalk.fit/"
+        />
+        <Project
+          aos1="fade-left"
+          aos2="fade-right"
+          form={website}
           img={tourismGPT}
           gradient={gradient}
           stack1="devicon-nextjs-original colored project-icon"
@@ -192,21 +204,7 @@ export default function Home() {
 
           appUrl="https://full-stack-tourismgpt-next-js.vercel.app/"
         />
-        <Project
-          aos1="fade-left"
-          aos2="fade-right"
-          form={website}
-          img={martinezCakes}
-          gradient={gradient}
-          stack1="devicon-react-original-wordmark colored project-icon"
-          stack2="devicon-nodejs-plain-wordmark colored project-icon"
-          stack4="devicon-css3-plain-wordmark colored project-icon"
-          stack3="devicon-mongodb-plain-wordmark colored project-icon"
-          title="Martinez Cakes"
-          github="https://github.com/JuanMartinez503/full-stack-cake-website"
-          description="An exquisite Full Stack application tailored to showcase the masterful craftsmanship of my sister's cake business. I created this platform from scratch, allowing users to explore a gallery of intricately designed cakes that add an extra layer of joy to special moments. The site is fully bilingual, ensuring accessibility for both English and Spanish-speaking audiences."
-          appUrl="https://martinezcakes.com/"
-        />
+  
         <Project
           aos1="fade-right"
           form={website}
