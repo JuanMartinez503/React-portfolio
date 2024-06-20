@@ -25,14 +25,17 @@ export default function Home() {
           alt="A picture of myself smiling with my arms crossed"
         />
  <div id="home-intro" className="text-center p-1 flex-wrap">
-  <h2>
+  <h4>
     Hi there, I'm <span id="j">J</span>
-    <span id="uan">uan</span>, a Full Stack Developer!
-  </h2>
-  <p>Fueled by a passion for creating engaging web experiences, I excel in developing clean code and intuitive interfaces. My journey in web development, enriched by over 2,000 hours of hands-on experience and a commitment to staying abreast of the latest technologies, reflects my dedication to innovation and excellence.</p>
-<p>Currently, I am deepening my knowledge and skills through a Master of Science in Computer Science at Ball State University, which complements my practical experience with advanced theoretical insights.</p>
-<p>My portfolio highlights my capability to breathe life into dynamic web applications, showcasing my blend of artistic flair and technical acumen. I am keen on exploring collaborative opportunities or project engagements where I can leverage my skills and academic background.</p>
-<p>Let's connect to discuss how we can transform innovative visions into reality with cutting-edge web technology.</p>
+    <span id="uan">uan</span>, a Software Engineer!
+  </h4>
+  <p>Fueled by a passion for creating engaging web experiences, I excel in clean, efficient code and user-friendly interfaces. With over 2,000 hours of experience, I stay ahead with the latest technologies, striving for innovation and excellence.</p>
+
+<p>Currently pursuing a Master of Science in Computer Science at Ball State University, I complement my practical experience with advanced theoretical insights.</p>
+
+<p>As a founding software engineer at Venue Platform, I lead cross-platform MVP development using the MERN stack and TypeScript. I build responsive and secure interfaces with React Native, ensure high code quality through comprehensive testing, and optimize application performance. My role involves collaborating with teams to achieve seamless functionality and drive innovative solutions.</p>
+
+<p>Let's connect to discuss how we can turn innovative visions into reality using state-of-the-art web technology.</p>
 
 </div>
 
@@ -118,7 +121,12 @@ export default function Home() {
                 <p>Tailwind CSS</p>
               </i>
             </div>
-            
+            <div className="dev-icon-div" data-aos="fade-left">
+              {" "}
+              <i className="devicon-react-original colored skill-icon">
+                <p>React Native</p>
+              </i>
+            </div>
           </div>
         </div>
         <div className="m-1 my-5 backend" data-aos="flip-left">

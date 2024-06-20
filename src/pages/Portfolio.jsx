@@ -14,7 +14,7 @@ export default function Portfolio() {
 
   return (
     <div id="portfolio" className="d-flex flex-wrap">
-      <h3 className="mx-3 text-center">
+      <h3 className="my-3 text-center">
         Welcome to my project showcase! Below, you'll find a selection of my
         most notable projects. For a more comprehensive view of my work, feel
         free to explore my GitHub repository. Let's embark on a journey through

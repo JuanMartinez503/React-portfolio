@@ -8,7 +8,7 @@ export default function NavBar() {
         <nav id="nav" className="navbar  navbar-expand-lg p-4 bg-body-tertiary">
           <div className="container-fluid ">
             <Link to="/" className="navbar-brand">Juan Martinez<br />
-            <span id="full-stack" className="text-center">Full Stack Developer</span></Link>
+            <span id="full-stack" className="text-center">Software Engineer</span></Link>
             <button
               className="navbar-toggler btn"
               type="button"

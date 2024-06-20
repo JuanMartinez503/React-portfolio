@@ -6,10 +6,10 @@ export default function Resume() {
   }, []);
   return (
     <div className=" overflow-hidden">
-      <h2 className="m-1 p-3 text-center  ">
+      <h4 className="m-1 p-3 text-center  ">
         Click the link below to access my professional resume and learn more
         about my qualifications and experience.
-      </h2>
+      </h4>
       <div className="my-2 text-center" id="resume">
         <a href="/JuanM-resume.pdf" download>
           Download my Resume
@@ -84,6 +84,12 @@ export default function Resume() {
               {" "}
               <i className="devicon-tailwindcss-plain colored skill-icon">
                 <p>Tailwind CSS</p>
+              </i>
+            </div>
+            <div className="dev-icon-div" data-aos="fade-left">
+              {" "}
+              <i className="devicon-react-original colored skill-icon">
+                <p>React Native</p>
               </i>
             </div>
           </div>
