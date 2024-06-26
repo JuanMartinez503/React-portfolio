@@ -38,7 +38,7 @@ header{
   width: 100% !important;
   
 background-color: var(--primary) !important;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 20px rgba(0, 0, 0, 0.5);
 overscroll-behavior: var(--primary) !important;
 
   
@@ -208,6 +208,9 @@ transform-origin: 0 0; /* see note above */
 }
 .ldio-5xo4mkmi3hi div { box-sizing: content-box; }
 
+#footer {
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
 footer .p-3::before {
   content: "";
   position: absolute;
@@ -223,6 +226,9 @@ footer .p-3::before {
 footer .card-header {
   color: var(--primary);
   font-size: 1.6rem;
+  padding-bottom: 20px;
+  box-shadow: none !important;
+  background-color: var(--primary) !important;
 }
 footer .card-body {
   color: var(--third);
@@ -462,13 +468,20 @@ font-size: 1rem;
   text-decoration: dashed black !important;
 }
 #scroll-Btn{
-  padding: 1%;
+  padding: 5px;
+  position: fixed !important;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1000;
   background-color: var(--primary);
-  color: var(--complementary);
+  color: var(--secondbg) !important;
   margin: 1.7%;
   margin-bottom: 3%;
-  border: 1px solid var(--complementary) !important;
+  border: 1px solid var(--secondbg) !important;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#scroll-Btn svg {
+  color: black;
 }
 #scroll-Btn:hover{
   transform: scale(1.08);

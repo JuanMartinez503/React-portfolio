@@ -36,7 +36,11 @@ function App() {
               </h1>
             }
           >
+            <div className="pb-5"
+            >
             <Outlet />
+
+            </div>
           </Suspense>
           <BackToTopBtn />
         </div>

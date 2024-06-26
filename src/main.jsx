@@ -4,8 +4,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {createBrowserRouter , RouterProvider} from 'react-router-dom'
 import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
 
 import Home from './pages/Home.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
