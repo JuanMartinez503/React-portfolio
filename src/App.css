@@ -300,7 +300,7 @@ footer .card-body {
   color: var(--secondbg);
 }
 .skill-icon {
-  font-size: 5rem;
+  font-size: 3rem;
 
  
 }
@@ -315,14 +315,14 @@ footer .card-body {
   display: flex;
   flex-direction: column;
   
-  width: 12rem;
+  width: 7rem;
   margin-left: 1%;
   margin-right: 1%;
 
 }
 .skill-icon p {
   padding-top: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   justify-content: center;
   color: var(--complementary) !important;
   }
