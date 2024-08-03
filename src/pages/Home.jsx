@@ -18,24 +18,21 @@ export default function Home() {
   const gradient = "project-info-bg flex-wrap";
   return (
     <div className=" overflow-hidden">
-      <div className="intro d-flex flex-wrap top mt-3" data-aos="zoom-in">
+      <div className="intro d-flex justify-content-between flex-wrap top mt-3" data-aos="zoom-in">
         <img
           id="headshot"
           src={headshot}
           alt="A picture of myself smiling with my arms crossed"
         />
- <div id="home-intro" className="text-center p-1 flex-wrap">
-  <h4>
-    Hi there, I'm <span id="j">J</span>
-    <span id="uan">uan</span>, a Software Engineer!
+ <div id="home-intro" className=" p-1 flex-wrap">
+  <h4 className="text-center ">
+     I'm <span id="j">J</span>
+    <span id="uan">uan</span>, a Software Engineer with 2+ years of experience.
   </h4>
-  <p>Fueled by a passion for creating engaging web experiences, I excel in clean, efficient code and user-friendly interfaces. With over 2,000 hours of experience, I stay ahead with the latest technologies, striving for innovation and excellence.</p>
+  <h5>Based in Westfield, Indiana, I currently serve as the Lead Frontend Software Engineer at Venue Platform. I specialize in React Native and TypeScript, bringing complex features and Figma components to life.</h5>
 
-<p>Currently pursuing a Master of Science in Computer Science at Ball State University, I complement my practical experience with advanced theoretical insights.</p>
 
-<p>As a founding software engineer at Venue Platform, I lead cross-platform MVP development using the MERN stack and TypeScript. I build responsive and secure interfaces with React Native, ensure high code quality through comprehensive testing, and optimize application performance. My role involves collaborating with teams to achieve seamless functionality and drive innovative solutions.</p>
 
-<p>Let's connect to discuss how we can turn innovative visions into reality using state-of-the-art web technology.</p>
 
 </div>
 

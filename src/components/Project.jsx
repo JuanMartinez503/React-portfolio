@@ -33,7 +33,7 @@ export default function Project({
               <i className="devicon-github-original colored"></i>
             </Link>
 </div>
-          <p className="text-center">{description}</p>
+          <p >{description}</p>
           <div className="text-center">
             <i className={stack1}></i>
 
