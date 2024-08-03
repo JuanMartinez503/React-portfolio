@@ -21,7 +21,7 @@ export default function Project({
   }, []);
   return (
     <div>
-      <div id="project-component" className="mt-4 m-1 ">
+      <div id="project-component" className="mb-5 m-1 ">
         <img src={img} loading="lazy" alt={description} data-aos={aos1} />
         <div id="project-info" data-aos={aos2} className={gradient}>
 <div className="align-items-center d-flex justify-content-center gap-2">

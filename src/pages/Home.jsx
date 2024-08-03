@@ -1,8 +1,8 @@
 import Project from "../components/Project";
 import perSocial from "../images/expensetracker.png";
-import martinezCakes from "../images/martinezcakes.png";
-import tourismGPT from '../images/tourismGPT.png'
+import tourismGPT from "../images/tourismGPT.png";
 import dietTalk from "../images/diettalk.png";
+import reactNative from "../images/react-native.png";
 import Aos from "aos";
 
 import "aos/dist/aos.css";
@@ -11,31 +11,35 @@ import headshot from "../images/headshot.png";
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 1000, });
+    Aos.init({ duration: 1000 });
   }, []);
   const website = "Visit Website!";
   const gradientReverse = "project-info-bg-reverse flex-wrap";
   const gradient = "project-info-bg flex-wrap";
   return (
     <div className=" overflow-hidden">
-      <div className="intro d-flex justify-content-between flex-wrap top mt-3" data-aos="zoom-in">
+      <div
+        className="intro d-flex justify-content-between flex-wrap top mt-3"
+        data-aos="zoom-in"
+      >
         <img
           id="headshot"
           src={headshot}
           alt="A picture of myself smiling with my arms crossed"
         />
- <div id="home-intro" className=" p-1 flex-wrap">
-  <h4 className="text-center ">
-     I'm <span id="j">J</span>
-    <span id="uan">uan</span>, a Software Engineer with 2+ years of experience.
-  </h4>
-  <h5>Based in Westfield, Indiana, I currently serve as the Lead Frontend Software Engineer at Venue Platform. I specialize in React Native and TypeScript, bringing complex features and Figma components to life.</h5>
-
-
-
-
-</div>
-
+        <div id="home-intro" className=" p-1 flex-wrap">
+          <h4 className="text-center ">
+            I'm <span id="j">J</span>
+            <span id="uan">uan</span>, a Software Engineer with 2+ years of
+            experience.
+          </h4>
+          <h5>
+            Based in Westfield, Indiana, I currently serve as the Lead Frontend
+            Software Engineer at Venue Platform. I specialize in React Native
+            and TypeScript, bringing complex features and Figma components to
+            life.
+          </h5>
+        </div>
       </div>
 
       <div className="py-4 m-1 text-center" data-aos="fade-right">
@@ -51,11 +55,10 @@ export default function Home() {
         <div className="m-1 fronted " data-aos="flip-right">
           <h3 className="d-flex">Front-End</h3>
           <div className="home-skills-icon-cont d-flex flex-wrap text-center justify-content-between">
-          <div className="dev-icon-div" data-aos="fade-right">
+            <div className="dev-icon-div" data-aos="fade-right">
               {" "}
-              <i className="devicon-html5-plain colored skill-icon">
-                <p>HTML</p>
-              </i>{" "}
+              <i className="devicon-html5-plain colored skill-icon"></i>{" "}
+              <p>HTML</p>
             </div>
             <div className="dev-icon-div" data-aos="fade-left">
               {" "}
@@ -83,9 +86,7 @@ export default function Home() {
             </div>
             <div className="dev-icon-div" data-aos="fade-left">
               {" "}
-              
-            <i className="devicon-nextjs-original colored skill-icon">
-          
+              <i className="devicon-nextjs-original colored skill-icon">
                 <p>Next.js</p>
               </i>
             </div>
@@ -129,47 +130,46 @@ export default function Home() {
         <div className="m-1 my-5 backend" data-aos="flip-left">
           <h3>Back-End</h3>
           <div className="home-skills-icon-cont d-flex text-center flex-wrap justify-content-between">
-          <div className="dev-icon-div" data-aos="fade-left">
-                {" "}
-                <i className="devicon-nodejs-plain colored skill-icon">
-                  <p>Node.js</p>
-                </i>
-              </div>
-              <div className="dev-icon-div" data-aos="fade-left">
-                <i className="devicon-java-plain colored skill-icon">
-                  <p>Java</p>
-                </i>
-              </div>
-              <div className="dev-icon-div" data-aos="fade-right">
-                {" "}
-                <i className="devicon-express-original colored skill-icon">
-                  <p>Express</p>
-                </i>
-              </div>
-              <div className="dev-icon-div" data-aos="fade-right">
-                {" "}
-                <i className="devicon-python-plain colored skill-icon">
-                  <p>Python</p>
-                </i>
-              </div>
-              <div className="dev-icon-div" data-aos="fade-right">
-                {" "}
-                <i className="devicon-mongodb-plain colored skill-icon">
-                  <p>MongoDB</p>
-                </i>
-              </div>
-              <div className="dev-icon-div" data-aos="fade-left">
-                {" "}
-                <i className="devicon-mysql-plain colored skill-icon">
-                  <p>MySQL</p>
-                </i>
-              </div>
-              <div className="dev-icon-div" data-aos="fade-left">
-                <i className="devicon-graphql-plain-wordmark colored skill-icon">
-                  <p>Graph QL</p>
-                </i>
-              </div>
-            
+            <div className="dev-icon-div" data-aos="fade-left">
+              {" "}
+              <i className="devicon-nodejs-plain colored skill-icon">
+                <p>Node.js</p>
+              </i>
+            </div>
+            <div className="dev-icon-div" data-aos="fade-left">
+              <i className="devicon-java-plain colored skill-icon">
+                <p>Java</p>
+              </i>
+            </div>
+            <div className="dev-icon-div" data-aos="fade-right">
+              {" "}
+              <i className="devicon-express-original colored skill-icon">
+                <p>Express</p>
+              </i>
+            </div>
+            <div className="dev-icon-div" data-aos="fade-right">
+              {" "}
+              <i className="devicon-python-plain colored skill-icon">
+                <p>Python</p>
+              </i>
+            </div>
+            <div className="dev-icon-div" data-aos="fade-right">
+              {" "}
+              <i className="devicon-mongodb-plain colored skill-icon">
+                <p>MongoDB</p>
+              </i>
+            </div>
+            <div className="dev-icon-div" data-aos="fade-left">
+              {" "}
+              <i className="devicon-mysql-plain colored skill-icon">
+                <p>MySQL</p>
+              </i>
+            </div>
+            <div className="dev-icon-div" data-aos="fade-left">
+              <i className="devicon-graphql-plain-wordmark colored skill-icon">
+                <p>Graph QL</p>
+              </i>
+            </div>
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@ export default function Home() {
           stack3="devicon-mongodb-plain-wordmark colored project-icon"
           title="Diet Talk"
           github="https://github.com/JuanMartinez503/"
-          description="Diet Talk, a full-stack app, redefines the weight loss journey by integrating AI-driven personal coaching with a supportive community. Key features include 24/7 tailored advice through an AI chat, direct messaging for private support, groups for shared interests, and customizable profiles for personal expression. This platform not only offers personalized wellness guidance but also fosters a vibrant community, making each step towards health and wellness both supported and celebrated."
+          description="Diet Talk is a full-stack application that redefines the weight loss journey by integrating AI-driven personal coaching with a supportive community. Key features include 24/7 tailored advice through an AI chat, private support via direct messaging, interest-based groups, and customizable profiles. This platform offers personalized wellness guidance while fostering a vibrant community, ensuring that each step towards health and wellness is supported and celebrated. Through this project, I enhanced my skills in AI integration, real-time messaging, and creating engaging user interfaces that promote community interaction."
           appUrl="https://diettalk.fit/"
         />
         <Project
@@ -202,27 +202,23 @@ export default function Home() {
           stack3="devicon-typescript-plain colored project-icon"
           title="Tourism GPT"
           github="https://github.com/JuanMartinez503/full-stack-tourismgpt-next-js"
-
-
-          description="Embark on a language revolution with Tourism GPT, a cutting-edge Full Stack Next.js application that transcends traditional boundaries. Powered by the newest versions of Next.js and Prisma, alongside the seamless integration of Clerk Auth, this groundbreaking project harnesses the prowess of OpenAI's leading-edge language model. It offers an unparalleled experience for wanderlust-driven travelers, creative content mavens, and enthusiasts seeking riveting conversations. The OpenAI API has been meticulously customized to deliver precisely the right information, adding a unique touch to your language exploration journey."
-
-
+          description="Tourism GPT is a full-stack application built with Next.js, designed to enhance tourism experiences using OpenAI's advanced language model. The app facilitates intelligent conversations, effortless content crafting, and personalized travel recommendations. Through this project, I honed my skills in integrating OpenAI's API for natural language processing and utilizing Prisma for efficient database management. Additionally, I learned to implement secure authentication with Clerk and create visually appealing interfaces using Tailwind CSS and Daisy UI."
           appUrl="https://full-stack-tourismgpt-next-js.vercel.app/"
         />
-  
+
         <Project
           aos1="fade-right"
-          form={website}
+          form={"Watch Video!"}
           gradient={gradientReverse}
           aos2="fade-left"
-          img={perSocial}
-          stack3="devicon-bootstrap-plain colored project-icon"
-          stack2="devicon-heroku-plain-wordmark colored project-icon"
+          img={reactNative}
+          stack3=""
+          stack2="devicon-javascript-plain colored project-icon"
           stack1="devicon-react-plain colored project-icon"
-          stack4="devicon-nodejs-plain-wordmark colored  project-icon"
-          title="Expense Tracker"
-          github="https://github.com/JuanMartinez503/mern-fullstack-expense-tracker"
-          description="Expense Tracker is a robust full-stack MERN application that I developed post my coding bootcamp to enhance my skills and empower users in managing their finances. With features like expense tracking, budget setting, and real-time spending visualization, it offers a user-friendly and secure platform to achieve financial success while I'm committed to continuous learning and skill improvement."
+          stack4="devicon-typescript-plain colored project-icon"
+          title="Realtime Chat App"
+          github="https://github.com/JuanMartinez503/Real-Time-Chat-App-ReactNative"
+          description="This React Native project, developed using Expo and Convex backend, delivers flawless performance on both Android and iOS devices. Key features include Convex database functions, real-time chat, file uploads, and a file-based router. The project showcases my proficiency in TypeScript, Expo, and integrating real-time functionalities. Through this project, I deepened my understanding of backend integration and enhanced my skills in building scalable mobile applications."
           appUrl="https://expense-tracker-mern-2023-3423c6e63a4e.herokuapp.com/"
         />
       </div>
