@@ -29,12 +29,12 @@ export default function Home() {
         />
         <div id="home-intro" className=" p-1 flex-wrap">
           <h4 className="text-center ">
-            I'm <span id="j">J</span>
-            <span id="uan">uan</span>, a Software Engineer with 2+ years of
+            I'm <span id="j">Juan</span>
+            , a Software Engineer with 2+ years of
             experience.
           </h4>
           <h5>
-            Based in Westfield, Indiana, I currently serve as the Lead Frontend
+            Based in Indianapolis, Indiana, I currently serve as the Lead Frontend
             Software Engineer at Venue Platform. I specialize in React Native
             and TypeScript, bringing complex features and Figma components to
             life.

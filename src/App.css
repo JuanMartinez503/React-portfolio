@@ -293,9 +293,15 @@ footer .card-body {
   
 }
 #j{
-  font-size: 1.5em;
-  color: var(--secondbg);
+  font-size: 1.1em;
+
+  background: linear-gradient(to right, rgba(0, 168, 253), #fff 35%, #e00a95);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 11s linear infinite;
 }
+
 #uan{
   color: var(--secondbg);
 }
