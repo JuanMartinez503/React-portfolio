@@ -15,7 +15,7 @@ export default function About() {
       />
       <div data-aos="flip-left" className="about-sec-cont">
         <h2 className="text-center">Hello there!</h2>
-        <div className="text-center">
+        <div >
         <p>
     I am a Software Engineer with a deep passion for coding and a strong foundation in both frontend and backend technologies. Recently, I completed my Full Stack Developer Certification at Butler University's Coding Bootcamp, mastering HTML5, CSS, JavaScript, JQuery, and React for frontend development, along with MySQL, MongoDB, Express, and Node for backend proficiency.
 </p>
