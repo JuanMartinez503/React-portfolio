@@ -615,10 +615,9 @@ font-size: 1rem;
     @media screen and (min-width: 1300px) {
       body {
         width: 1300px !important;
-        border:1px solid rgba(0 , 0 , 0, .2);
-      
+      background-color: var(--third) !important;
         margin: 0 auto !important;
-        background-color: var(--complementary) !important;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       }
     }
   
