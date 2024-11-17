@@ -30,14 +30,11 @@ export default function Home() {
         <div id="home-intro" className=" p-1 flex-wrap">
           <h4 className="text-center ">
             I'm <span id="j">Juan</span>
-            , a Software Engineer with 2+ years of
+            , a Senior Software Engineer with 2+ years of
             experience.
           </h4>
           <h5>
-            Based in Indianapolis, Indiana, I currently serve as the Lead Frontend
-            Software Engineer at Venue Platform. I specialize in React Native
-            and TypeScript, bringing complex features and Figma components to
-            life.
+            Based in Indianapolis, Indiana, I currently serve as a Senior Software Engineer at Venue Platform. I specialize in building scalable solutions with React Native and TypeScript on the front end, and Node.js with TypeScript on the back end, transforming complex Figma designs into seamless, user-friendly applications.
           </h5>
         </div>
       </div>
@@ -219,7 +216,7 @@ export default function Home() {
           title="Realtime Chat App"
           github="https://github.com/JuanMartinez503/Real-Time-Chat-App-ReactNative"
           description="This React Native project, developed using Expo and Convex backend, delivers flawless performance on both Android and iOS devices. Key features include Convex database functions, real-time chat, file uploads, and a file-based router. The project showcases my proficiency in TypeScript, Expo, and integrating real-time functionalities. Through this project, I deepened my understanding of backend integration and enhanced my skills in building scalable mobile applications."
-          appUrl="https://expense-tracker-mern-2023-3423c6e63a4e.herokuapp.com/"
+          appUrl="https://drive.google.com/file/d/1nq9VM14chfOfnHvBpm2kd-mh3LU70bou/view?pli=1"
         />
       </div>
     </div>
